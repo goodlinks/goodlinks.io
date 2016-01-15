@@ -13,7 +13,7 @@ I'm glad that you stopped by and I'm really excited to let you
 know about this new project!
 
 **GoodLinks is an eCommerce content marketing outreach service, with
-a mission of creating high paying jobs for inner city youth.**
+a mission of creating high-paying jobs for inner city youth.**
 
 ---
 
