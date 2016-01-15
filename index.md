@@ -15,12 +15,12 @@ I'm glad that you stopped by and I'm really excited to let you
 know about this new project!
 
 **GoodLinks is an eCommerce content marketing outreach service, with
-a mission of creating high-paying jobs for inner city youth.**
+a mission of creating high-paying jobs for inner-city youth.**
 
 ---
 
 While eCommerce is a massive growth industry, the economy at large is struggling,
-and, in many places inner city youth unemployment is up to 50% or 60%.
+and, in many places inner-city youth unemployment is up to 50% or 60%.
 
 This is a massively untapped pool of talent, that many times doesn't have access
 to great educational resources, but nevertheless has the raw intelligence,
@@ -71,11 +71,14 @@ We plan to solve for these by:
 ---
 
 I've had great success with MageMail - growing 5% to 15% month-over-month for the past 18 months,
-and essentially solved similar problems in the email automation space
+and essentially solved similar problems in the email automation space:
 
 - MageMail is more specialized for Magento, with a feature set that rivals the most expensive enterprise options
 - There are no long term contracts
 - It has a lower price point than virtually all of the competition.
+
+With GoodLinks, I'm going to double down on the strategies that have worked, in an adjacent
+market segment, to try to get order of magnitude (or two!) larger impact.
 
 ---
 
