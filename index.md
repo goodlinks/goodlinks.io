@@ -100,14 +100,7 @@ as the Founder of Nucleus Commerce, an ecommerce technology company.
 
 ---
 
-We're going to be accepting a handful of beta customers at a reduced price structure,
-on the basis of already have strong content but needing help with the outreach.
-
-If you're interested please email <a href="mailto:hello@goodlinks.io">hello@goodlinks.io</a>.
-
 Thanks again for checking us out!
-
----
 
 Here's to changing the world, one link at a time.
 
@@ -116,3 +109,5 @@ Here's to changing the world, one link at a time.
 Kalen Jordan
 <br/>Founder, GoodLinks
 <br/>eCommerce Content Outreach that Matters
+
+p.s. We're going to be accepting a handful of beta customers at a reduced price structure.  If you're interested, email <a href="mailto:hello@goodlinks.io">hello@goodlinks.io</a>.
