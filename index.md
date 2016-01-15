@@ -86,11 +86,11 @@ the designer and UX that built the MageMail brand.
 
 I'm also really excited about the team of advisors that I have:
 
- - <a href="https://about.me/dhru" target="_blank">Dhru Purohit</a> is an Entrepreneur + Investor, the co-Founder of the Clean Program, and a
+ - <a href="https://about.me/dhru" target="_blank">Dhru Purohit</a>
+ is an entrepreneur, investor, partner and CEO at Dr. Hyman Enterprises, the co-Founder of the Clean Program, and a
 contributing author to two New York times best sellers.  He has deep expertise
 at the intersection of eCommerce, content, and wellness.
- - <a href="https://twitter.com/stevedeckert" target="_blank">Steve Deckert</a> is the cofounder of Sweet Tooth Rewards, the leading loyalty program software
-for small to mid-sized eCommerce businesses.
+ - <a href="https://twitter.com/stevedeckert" target="_blank">Steve Deckert</a> is a digital marketer and Co-Founder of Sweet Tooth, the leading loyalty program software for eCommerce businesses.
  - <a href="https://twitter.com/kurttheobald" target="_blank">Kurt Theobald</a> is the CEO of Classy Llama - a veteran Magento Gold Solutions Partner as well
 as the Founder of Nucleus Commerce, an ecommerce technology company.
  - <a href="https://paulnrogers.com/" target="_blank">Paul Rogers</a> is the founder of a boutique London-based ecommerce consultancy.  As a digital
