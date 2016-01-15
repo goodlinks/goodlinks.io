@@ -35,6 +35,7 @@ use \Michelf\MarkdownExtra;
             }
         </style>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>goodlinks.io | eCommerce content outreach that doesn't suck</title>
     </head>
 <body>
     <div class="content">
