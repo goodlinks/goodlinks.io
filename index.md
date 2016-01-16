@@ -78,7 +78,7 @@ and essentially solved similar problems in the email automation space:
 - It has a lower price point than virtually all of the competition.
 
 With GoodLinks, I'm going to double down on the strategies that have worked, in an adjacent
-market segment, to try to get order of magnitude (or two!) larger impact.
+market segment, to try to get an order of magnitude (or three!) larger impact.
 
 ---
 
@@ -98,8 +98,9 @@ at the intersection of eCommerce, content, and wellness.
  - <a href="https://twitter.com/stevedeckert" target="_blank">Steve Deckert</a> is a digital marketer and Co-Founder of Sweet Tooth, the leading loyalty program software for eCommerce businesses.
  - <a href="https://twitter.com/kurttheobald" target="_blank">Kurt Theobald</a> is the CEO of Classy Llama - a veteran Magento Gold Solutions Partner as well
 as the Founder of Nucleus Commerce, an ecommerce technology company.
- - <a href="https://paulnrogers.com/" target="_blank">Paul Rogers</a> is the founder of a boutique London-based ecommerce consultancy.  As a digital
- strategist he has helped hundreds of merchants with site audits, strategy, content, and more.
+ - <a href="https://paulnrogers.com/" target="_blank">Paul Rogers</a> co-owns a boutique, London-based
+ eCommerce agency called GPMD and also founded Audited.org. Paul has completed audits and consultancy
+ projects for a number of big retail brands and has worked in SEO and eCommerce for over 8 years.
 
 ---
 
