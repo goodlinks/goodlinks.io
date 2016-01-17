@@ -6,13 +6,17 @@
 
 ---
 
-Hey there!
-
-I'm Kalen.  I built and run a SaaS app that does email
-marketing automation for online stores, called <a href="https://magemail.co" target="_blank">MageMail</a>.
+Hey...Kalen here!
 
 I'm glad that you stopped by and I'm really excited to let you
 know about this new project!
+
+I run a SaaS app that does email
+marketing automation for online stores, called <a href="https://magemail.co" target="_blank">MageMail</a>.
+I'm working on a new offering to serve another core marketing need
+for online stores, which is content marketing.
+
+---
 
 **GoodLinks is an eCommerce content marketing outreach service, with
 a mission of creating high-paying jobs for inner-city youth.**
