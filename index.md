@@ -88,7 +88,11 @@ market segment, to try to get an order of magnitude (or three!) larger impact.
 
 We're going to be documenting the journey of creating this business, so that you
 can follow along with us, learn from us, and help us.  There's a podcast that you can
-check out at <a href="http://podcast.kalenjordan.com">podcast.kalenjordan.com</a>.
+check out at <a href="http://podcast.kalenjordan.com">podcast.kalenjordan.com</a>
+where I talk about my personal journey building the business.
+
+There is also a new <a href="http://podcast.goodlinks.io/" target="_blank">GoodLinks podcast</a> where we'll be interviewing people on
+content outreach techniques.
 
 Right now we're working on branding.  I'm excited to be working with <a href="http://antonela.me/">Antonela Debiasi</a>,
 the designer and UX that built the MageMail brand.
