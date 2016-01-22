@@ -32,6 +32,8 @@ use \Michelf\MarkdownExtra;
                 max-width: 35em;
                 margin-left: auto;
                 margin-right: auto;
+                border: dotted 1px #2CDE8E;
+                padding-left: 14px;
             }
 
             .content p, .content li {
@@ -56,8 +58,8 @@ use \Michelf\MarkdownExtra;
                 display: block;
                 height: 1px;
                 border: 0;
-                border-top: 1px solid #ccc;
-                margin: 2em 5em;
+                border-top: 1px solid #E8E8E8;
+                margin: 2em 3em;
                 padding: 0;
             }
 
