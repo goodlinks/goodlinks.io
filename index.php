@@ -10,7 +10,20 @@ use \Michelf\MarkdownExtra;
         <style type="text/css">
             body {
                 padding: 1em;
-                background-color: #F5F5F5;
+                background-color: #FDFDFD;
+            }
+
+            .logo-wrapper {
+                max-width: 35em;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: #2CDE8E;
+                padding: 1em;
+                text-align: center;
+            }
+
+            .logo-wrapper img {
+                width: 215px;
             }
 
             .content {
@@ -56,6 +69,11 @@ use \Michelf\MarkdownExtra;
         <title>GoodLinks | eCommerce Content Outreach that Matters</title>
     </head>
 <body>
+    <div class="logo-wrapper">
+        <div class="logo">
+            <img src="/image/goodlinks-logo.png">
+        </div>
+    </div>
     <div class="content">
         <?php
         echo MarkdownExtra::defaultTransform(file_get_contents('index.md'));
