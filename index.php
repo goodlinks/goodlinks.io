@@ -56,6 +56,10 @@ use \Michelf\MarkdownExtra;
                 font-size: 21px;
             }
 
+            .nav-wrapper ul li:nth-last-child(1) {
+                padding-right: 0;
+            }
+
             .content {
                 background-color: white;
                 padding: 1em;
