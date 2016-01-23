@@ -1,11 +1,3 @@
-<center>
-  <audio src="/mp3/goodlinks-intro.m4a" controls="controls">
-      <a href="/mp3/goodlinks-intro.m4a">Listen to audio</a>
-  </audio>
-</center>
-
----
-
 Hey...Kalen here!
 
 I'm glad that you stopped by and I'm really excited to let you
@@ -17,6 +9,12 @@ I'm working on a new offering to serve another core marketing need
 for online stores, which is content marketing.
 
 ---
+
+<center>
+  <audio src="/mp3/goodlinks-intro.m4a" controls="controls">
+      <a href="/mp3/goodlinks-intro.m4a">Listen to audio</a>
+  </audio>
+</center>
 
 **GoodLinks is an eCommerce content marketing outreach service, with
 a mission of creating high-paying jobs for inner-city youth.**

@@ -26,6 +26,36 @@ use \Michelf\MarkdownExtra;
                 width: 215px;
             }
 
+            .nav-wrapper {
+                max-width: 35em;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 1em;
+                text-align: center;
+                border-left: dotted 1px #2CDE8E;
+                border-right: dotted 1px #2CDE8E;
+                border-top: solid 1px white;
+                padding-left: 14px;
+                background-color: #2CDE8E;
+                text-align: center;
+            }
+
+            .nav-wrapper ul {
+                display: inline-block;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            .nav-wrapper ul li {
+                list-style-type: none;
+                float: left;
+                border-right: dotted 1px #2CDE8E;
+                padding-right: 1em;
+                color: white;
+                font-size: 21px;
+            }
+
             .content {
                 background-color: white;
                 padding: 1em;
@@ -79,6 +109,13 @@ use \Michelf\MarkdownExtra;
           ga('send', 'pageview');
 
         </script>
+        <script>!function(e,o,n){window.HSCW=o,window.HS=n,n.beacon=n.beacon||{};var t=n.beacon;t.userConfig={},t.readyQueue=[],t.config=function(e){this.userConfig=e},t.ready=function(e){this.readyQueue.push(e)},o.config={docs:{enabled:!0,baseUrl:"//goodlinks.helpscoutdocs.com/"},contact:{enabled:!0,formId:"3553abc0-c1c4-11e5-9e75-0a7d6919297d"}};var r=e.getElementsByTagName("script")[0],c=e.createElement("script");c.type="text/javascript",c.async=!0,c.src="https://djtflbt20bdde.cloudfront.net/",r.parentNode.insertBefore(c,r)}(document,window.HSCW||{},window.HS||{});</script>
+        <script>
+            HS.beacon.config({
+                topArticles: true,
+                color: '#2CDE8E'
+            });
+        </script>
         <title>GoodLinks | eCommerce Content Outreach that Matters</title>
     </head>
 <body>
@@ -86,6 +123,13 @@ use \Michelf\MarkdownExtra;
         <div class="logo">
             <img src="/image/goodlinks-logo.png">
         </div>
+    </div>
+    <div class="nav-wrapper">
+        <ul>
+            <li><a href="http://blog.goodlinks.io">Blog</a></li>
+            <li><a href="http://podcast.goodlinks.io">Podcast</a></li>
+            <li><a href="http://docs.goodlinks.io">Docs</a></li>
+        </ul>
     </div>
     <div class="content">
         <?php
