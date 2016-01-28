@@ -1,5 +1,14 @@
 {
     "require": {
-        "michelf/php-markdown": "^1.6"
-    }
+        "michelf/php-markdown": "^1.6",
+        "josegonzalez/dotenv": "dev-master",
+        "goodlinks/buzzstream-feed": "dev-master",
+        "league/oauth2-client": "^1.2"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:goodlinks/buzzstream-feed.git"
+        }
+    ]
 }

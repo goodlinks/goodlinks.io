@@ -120,7 +120,7 @@ use \Michelf\MarkdownExtra;
                 color: '#2CDE8E'
             });
         </script>
-        <title>GoodLinks | eCommerce Content Outreach that Matters</title>
+        <title>Exceptional Content Outreach | GoodLinks</title>
     </head>
 <body>
     <div class="logo-wrapper">
