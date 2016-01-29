@@ -13,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/goodlinks/buzzstream-feed.git",
-                "reference": "70d62ca55c16ff296ab9d91af6d646952712c27f"
+                "reference": "d288b3ef0c1338438c525dabf075f2613b4d94cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goodlinks/buzzstream-feed/zipball/70d62ca55c16ff296ab9d91af6d646952712c27f",
-                "reference": "70d62ca55c16ff296ab9d91af6d646952712c27f",
+                "url": "https://api.github.com/repos/goodlinks/buzzstream-feed/zipball/d288b3ef0c1338438c525dabf075f2613b4d94cb",
+                "reference": "d288b3ef0c1338438c525dabf075f2613b4d94cb",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 "source": "https://github.com/goodlinks/buzzstream-feed/tree/master",
                 "issues": "https://github.com/goodlinks/buzzstream-feed/issues"
             },
-            "time": "2016-01-29 09:34:12"
+            "time": "2016-01-29 09:42:58"
         },
         {
             "name": "guzzlehttp/guzzle",
