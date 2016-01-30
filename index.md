@@ -16,23 +16,22 @@ for online stores, which is content marketing.
   </audio>
 </center>
 
-**GoodLinks is an eCommerce content marketing outreach service, with
-a mission of creating high-paying jobs for inner-city youth.**
+<center><p><b>GoodLinks is a content outreach service with
+a mission of creating jobs for the unemployed</b></p></center>
 
 ---
 
-While eCommerce is a massive growth industry, the economy at large is struggling,
-and, in many places inner-city youth unemployment is up to 50% or 60%.
+While internet-enabled businesses are seeing massive growth,
+the economy at large is struggling,
+and, in many places unemployment rates are skyrocketing.
 
-This is a massively untapped pool of talent, that many times doesn't have access
-to great educational resources, but nevertheless has the raw intelligence,
-creativity, motivation, and drive to become excellent content outreach specialists.
+There is a massively untapped pool of talent out there waiting to be tapped.
 
 We're going to work with industry-leading content marketers to
 develop a training fellowship to accelerate their education.
 
 Equipped with excellent training, mentorship, accountability, and best-in-class tools,
-in a matter of weeks they'll be up to speed working on live customer projects,
+in a matter of weeks new recruits will be up to speed working on live customer projects,
 while continuing to level up their skills through ongoing training modules.
 
 <a href="http://andela.com" target="_blank">Andela</a> is a business that has an excellent model for this - with a campus and training
