@@ -109,8 +109,9 @@ as the Founder of Nucleus Commerce, an ecommerce technology company.
 
 ---
 
-**Sign Up**
+If you'd like to get started, you can sign up with your credit card here:
 
+<center>
 <form action="https://magemail.co/app/goodlinks-charge.php" method="POST">
     <script
         src="https://checkout.stripe.com/checkout.js" class="stripe-button"
@@ -122,6 +123,7 @@ as the Founder of Nucleus Commerce, an ecommerce technology company.
         data-locale="auto">
     </script>
 </form>
+</center>
 
 ---
 
