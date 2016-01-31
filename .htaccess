@@ -1,0 +1,13 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    ErrorDocument 404 /404.php
+
+    RewriteRule ^thanks/?$ /thanks.php [L]
+
+</IfModule>
+
+# END WordPress
