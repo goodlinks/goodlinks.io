@@ -109,6 +109,22 @@ as the Founder of Nucleus Commerce, an ecommerce technology company.
 
 ---
 
+**Sign Up**
+
+<form action="https://magemail.co/app/goodlinks-charge.php" method="POST">
+    <script
+        src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+        data-key="pk_live_iQ4EheUX8ywnwtNM6glg9gzx"
+        data-name="GoodLinks"
+        data-description="5 Links / Month"
+        data-amount="100000"
+        data-panel-label="Subscribe"
+        data-locale="auto">
+    </script>
+</form>
+
+---
+
 Thanks again for checking us out!
 
 Here's to changing the world, one link at a time.
