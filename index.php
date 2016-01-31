@@ -3,6 +3,14 @@
 require_once('vendor/michelf/php-markdown/Michelf/MarkdownExtra.inc.php');
 use \Michelf\MarkdownExtra;
 
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https" : "http";
+$serverName = isset($_SERVER['SERVER_NAME']) ? $_SERVER['SERVER_NAME'] : null;
+if ($serverName == 'goodlinks.io' && $protocol == 'http') {
+    header('location:https://goodlinks.io');
+    exit;
+}
+
+
 ?>
 
 <html>
