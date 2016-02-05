@@ -104,11 +104,14 @@ a {
     }
 
     .button {
-        transition: all 0.2s ease-in-out;
+        transition: all 0.1s ease-in-out;
         font-size: 1.5em;
+        width: 270px;
         &:hover {
-            font-size: 1.7em;
+            width: 300px;
+            opacity: 0.7;
         }
+
         color: #1B6F0E !important;
     }
 }
