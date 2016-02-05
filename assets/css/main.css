@@ -1950,12 +1950,6 @@
 		font-style: italic;
 	}
 
-	header h2 + p {
-		font-size: 1.25em;
-		margin-top: -1em;
-		line-height: 1.5em;
-	}
-
 	header h3 + p {
 		font-size: 1.1em;
 		margin-top: -0.85em;
@@ -1977,15 +1971,6 @@
 
 		header.major h2 {
 			margin: 0;
-		}
-
-		header.major p {
-			display: inline-block;
-			border-top: solid 2px #e5e5e5;
-			color: #777;
-			margin: 1.5em 0 0 0;
-			padding: 1.5em 0 0 0;
-			font-style: normal;
 		}
 
 /* Form */
@@ -2334,31 +2319,6 @@
 
 			.icon.major:before {
 				font-size: 2.5em;
-			}
-
-			.icon.major.accent1 {
-				background: #666;
-				color: #ffffff;
-			}
-
-			.icon.major.accent2 {
-				background: #e89980;
-				color: #ffffff;
-			}
-
-			.icon.major.accent3 {
-				background: #7fcdb8;
-				color: #ffffff;
-			}
-
-			.icon.major.accent4 {
-				background: #90b0ba;
-				color: #ffffff;
-			}
-
-			.icon.major.accent5 {
-				background: #e5cb95;
-				color: #ffffff;
 			}
 
 /* Image */
@@ -3140,13 +3100,6 @@
 				}
 
 /* CTA */
-
-	#cta {
-		background: #e89980;
-		color: #f9e5df;
-		padding: 3.5em 0 4em 0;
-		text-align: center;
-	}
 
 		#cta h2, #cta h3, #cta h4, #cta h5, #cta h6 {
 			color: inherit;
