@@ -94,13 +94,22 @@ a {
         font-size: 1.5em;
         line-height: 1.5em;
 
-        max-width: 39em;
+        max-width: 24em;
         margin-left: auto;
         margin-right: auto;
 
         a {
             color: inherit;
         }
+    }
+
+    .button {
+        transition: all 0.2s ease-in-out;
+        font-size: 1.5em;
+        &:hover {
+            font-size: 1.7em;
+        }
+        color: #1B6F0E !important;
     }
 }
 
