@@ -34,54 +34,59 @@ a {
 /* line 34, ../scss/goodlinks.scss */
 #header svg {
   width: 120px;
+  transition: width 0.1s ease-in-out;
   padding-left: 20px;
   padding-top: 6px;
   height: 43px;
 }
-/* line 40, ../scss/goodlinks.scss */
+/* line 37, ../scss/goodlinks.scss */
+#header svg:hover {
+  width: 130px;
+}
+/* line 45, ../scss/goodlinks.scss */
 #header svg path, #header svg rect {
   fill: white;
 }
-/* line 48, ../scss/goodlinks.scss */
+/* line 53, ../scss/goodlinks.scss */
 #header #nav ul li a {
   color: white;
   font-size: 18px;
 }
-/* line 52, ../scss/goodlinks.scss */
+/* line 57, ../scss/goodlinks.scss */
 #header #nav ul li a:hover {
   color: black;
   text-decoration: underline;
 }
 
-/* line 62, ../scss/goodlinks.scss */
+/* line 67, ../scss/goodlinks.scss */
 #banner {
   position: absolute;
   top: 0;
   width: 100%;
 }
-/* line 67, ../scss/goodlinks.scss */
+/* line 72, ../scss/goodlinks.scss */
 #banner h2 {
   color: white;
 }
 
 @media screen and (min-width: 840px) {
-  /* line 73, ../scss/goodlinks.scss */
+  /* line 78, ../scss/goodlinks.scss */
   #banner {
     padding-top: 17em;
   }
 }
-/* line 78, ../scss/goodlinks.scss */
+/* line 83, ../scss/goodlinks.scss */
 #cta {
   background: #1B6F0E;
   color: white;
   padding: 3.5em 1em 4em 1em;
   text-align: center;
 }
-/* line 84, ../scss/goodlinks.scss */
+/* line 89, ../scss/goodlinks.scss */
 #cta input[type=submit] {
   color: #1B6F0E;
 }
-/* line 88, ../scss/goodlinks.scss */
+/* line 93, ../scss/goodlinks.scss */
 #cta p {
   font-size: 1.5em;
   line-height: 1.5em;
@@ -89,34 +94,34 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 96, ../scss/goodlinks.scss */
+/* line 101, ../scss/goodlinks.scss */
 #cta p a {
   color: inherit;
 }
 
-/* line 102, ../scss/goodlinks.scss */
+/* line 107, ../scss/goodlinks.scss */
 .icon.major {
   background-color: #0B8E45;
   color: #ffffff;
 }
 
-/* line 108, ../scss/goodlinks.scss */
+/* line 113, ../scss/goodlinks.scss */
 section.lets-face-it p {
   text-align: left;
 }
 
-/* line 114, ../scss/goodlinks.scss */
+/* line 119, ../scss/goodlinks.scss */
 section.box header.major {
   max-width: 45em;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 120, ../scss/goodlinks.scss */
+/* line 125, ../scss/goodlinks.scss */
 section.box h2 {
   border-bottom: solid 2px #e5e5e5;
   padding-bottom: 0.5em;
 }
-/* line 125, ../scss/goodlinks.scss */
+/* line 130, ../scss/goodlinks.scss */
 section.box p {
   width: 100%;
   display: inline-block;
@@ -127,7 +132,7 @@ section.box p {
   font-size: 1.5em;
   line-height: 1.5em;
 }
-/* line 137, ../scss/goodlinks.scss */
+/* line 142, ../scss/goodlinks.scss */
 section.box ul {
   padding-left: 3em;
   text-align: left;
@@ -136,12 +141,12 @@ section.box ul {
   font-size: 1.5em;
   line-height: 1.5em;
 }
-/* line 145, ../scss/goodlinks.scss */
+/* line 150, ../scss/goodlinks.scss */
 section.box ul li {
   padding-left: 0.5em;
   margin-bottom: 1em;
 }
-/* line 148, ../scss/goodlinks.scss */
+/* line 153, ../scss/goodlinks.scss */
 section.box ul li:nth-last-child(1) {
   margin-bottom: 0;
 }
