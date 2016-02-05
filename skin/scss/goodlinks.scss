@@ -50,7 +50,7 @@ a {
         font-size: 13px;
 
         &:hover {
-            color: white;
+            text-decoration: underline;
         }
     }
 
@@ -98,7 +98,7 @@ a {
 
 @media screen and (min-width: 840px) {
     #banner {
-        padding-top: 25em;
+        padding-top: 16em;
     }
 }
 
