@@ -28,15 +28,12 @@ a {
             margin-left: 34px;
             margin-top: 30px;
             width: 146px;
-            path,rect {
-                fill: white;
-            }
         }
 
         //  cursor: url(/image/smiley-icon.png), auto;
 
         path, rect {
-            fill: black;
+            fill: white;
         }
     }
 
@@ -49,7 +46,7 @@ a {
         left: 41px;
 
         border-bottom: none;
-        color: black;
+        color: white;
         font-size: 13px;
 
         &:hover {
@@ -65,7 +62,7 @@ a {
         ul {
             li {
                 a {
-                    color: black;
+                    color: white;
                     font-size: inherit;
 
                     &:hover {
@@ -78,14 +75,21 @@ a {
     }
 }
 
+.video-overlay {
+    background-color: #AFAFAF;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 #banner {
     position: absolute;
     top: 0;
     width: 100%;
-    color: black;
+    color: white;
 
     h2 {
-        background-color: rgba(255, 255, 255, 0.47);
         display: inline-block;
         padding: 0.5em;
         color: inherit;
