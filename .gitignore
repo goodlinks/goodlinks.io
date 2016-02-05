@@ -2,5 +2,4 @@
 /vendor
 .DS_STORE
 /.env
-/skin/css/*.css
 /skin/.sass-cache
