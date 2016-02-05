@@ -32,7 +32,7 @@ a {
 }
 /* line 33, ../scss/goodlinks.scss */
 #header svg path, #header svg rect {
-  fill: white;
+  fill: black;
 }
 /* line 38, ../scss/goodlinks.scss */
 #header .we-are-hiring {
@@ -42,12 +42,12 @@ a {
   top: 58px;
   left: 41px;
   border-bottom: none;
-  color: white;
+  color: black;
   font-size: 13px;
 }
 /* line 50, ../scss/goodlinks.scss */
 #header .we-are-hiring:hover {
-  color: black;
+  color: white;
 }
 /* line 55, ../scss/goodlinks.scss */
 #header #nav {
@@ -57,12 +57,12 @@ a {
 }
 /* line 62, ../scss/goodlinks.scss */
 #header #nav ul li a {
-  color: white;
+  color: black;
   font-size: inherit;
 }
 /* line 66, ../scss/goodlinks.scss */
 #header #nav ul li a:hover {
-  color: black;
+  color: white;
   text-decoration: underline;
 }
 
@@ -71,30 +71,34 @@ a {
   position: absolute;
   top: 0;
   width: 100%;
+  color: black;
 }
-/* line 81, ../scss/goodlinks.scss */
+/* line 82, ../scss/goodlinks.scss */
 #banner h2 {
-  color: white;
+  background-color: rgba(255, 255, 255, 0.47);
+  display: inline-block;
+  padding: 0.5em;
+  color: inherit;
 }
 
 @media screen and (min-width: 840px) {
-  /* line 87, ../scss/goodlinks.scss */
+  /* line 91, ../scss/goodlinks.scss */
   #banner {
-    padding-top: 17em;
+    padding-top: 25em;
   }
 }
-/* line 92, ../scss/goodlinks.scss */
+/* line 96, ../scss/goodlinks.scss */
 #cta {
   background: #1B6F0E;
   color: white;
   padding: 3.5em 1em 4em 1em;
   text-align: center;
 }
-/* line 98, ../scss/goodlinks.scss */
+/* line 102, ../scss/goodlinks.scss */
 #cta input[type=submit] {
   color: #1B6F0E;
 }
-/* line 102, ../scss/goodlinks.scss */
+/* line 106, ../scss/goodlinks.scss */
 #cta p {
   font-size: 1.5em;
   line-height: 1.5em;
@@ -102,46 +106,46 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 110, ../scss/goodlinks.scss */
+/* line 114, ../scss/goodlinks.scss */
 #cta p a {
   color: inherit;
 }
-/* line 115, ../scss/goodlinks.scss */
+/* line 119, ../scss/goodlinks.scss */
 #cta .button {
   transition: all 0.1s ease-in-out;
   font-size: 1.5em;
   width: 270px;
   color: #1B6F0E !important;
 }
-/* line 119, ../scss/goodlinks.scss */
+/* line 123, ../scss/goodlinks.scss */
 #cta .button:hover {
   width: 300px;
   opacity: 0.7;
 }
 
-/* line 128, ../scss/goodlinks.scss */
+/* line 132, ../scss/goodlinks.scss */
 .icon.major {
   background-color: #0B8E45;
   color: #ffffff;
 }
 
-/* line 134, ../scss/goodlinks.scss */
+/* line 138, ../scss/goodlinks.scss */
 section.lets-face-it p {
   text-align: left;
 }
 
-/* line 140, ../scss/goodlinks.scss */
+/* line 144, ../scss/goodlinks.scss */
 section.box header.major {
   max-width: 45em;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 146, ../scss/goodlinks.scss */
+/* line 150, ../scss/goodlinks.scss */
 section.box h2 {
   border-bottom: solid 2px #e5e5e5;
   padding-bottom: 0.5em;
 }
-/* line 151, ../scss/goodlinks.scss */
+/* line 155, ../scss/goodlinks.scss */
 section.box p {
   width: 100%;
   display: inline-block;
@@ -152,7 +156,7 @@ section.box p {
   font-size: 1.5em;
   line-height: 1.5em;
 }
-/* line 163, ../scss/goodlinks.scss */
+/* line 167, ../scss/goodlinks.scss */
 section.box ul {
   padding-left: 3em;
   text-align: left;
@@ -161,17 +165,17 @@ section.box ul {
   font-size: 1.5em;
   line-height: 1.5em;
 }
-/* line 171, ../scss/goodlinks.scss */
+/* line 175, ../scss/goodlinks.scss */
 section.box ul li {
   padding-left: 0.5em;
   margin-bottom: 1em;
 }
-/* line 174, ../scss/goodlinks.scss */
+/* line 178, ../scss/goodlinks.scss */
 section.box ul li:nth-last-child(1) {
   margin-bottom: 0;
 }
 
-/* line 183, ../scss/goodlinks.scss */
+/* line 187, ../scss/goodlinks.scss */
 section.box.pricing .major p {
   max-width: 23em;
 }

@@ -31,7 +31,7 @@ a {
         }
 
         path, rect {
-            fill: white;
+            fill: black;
         }
     }
 
@@ -44,11 +44,11 @@ a {
         left: 41px;
 
         border-bottom: none;
-        color: white;
+        color: black;
         font-size: 13px;
 
         &:hover {
-            color: black;
+            color: white;
         }
     }
 
@@ -60,11 +60,11 @@ a {
         ul {
             li {
                 a {
-                    color: white;
+                    color: black;
                     font-size: inherit;
 
                     &:hover {
-                        color: black;
+                        color: white;
                         text-decoration: underline;
                     }
                 }
@@ -77,15 +77,19 @@ a {
     position: absolute;
     top: 0;
     width: 100%;
+    color: black;
 
     h2 {
-        color: white;
+        background-color: rgba(255, 255, 255, 0.47);
+        display: inline-block;
+        padding: 0.5em;
+        color: inherit;
     }
 }
 
 @media screen and (min-width: 840px) {
     #banner {
-        padding-top: 17em;
+        padding-top: 25em;
     }
 }
 
