@@ -1,4 +1,5 @@
 .idea
+.htaccess
 /vendor
 .DS_STORE
 /.env
