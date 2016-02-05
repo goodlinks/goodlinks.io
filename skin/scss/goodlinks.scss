@@ -30,7 +30,7 @@ a {
             width: 146px;
         }
 
-        cursor: url(/image/smiley-icon.png), auto;
+        //  cursor: url(/image/smiley-icon.png), auto;
 
         path, rect {
             fill: black;
@@ -119,12 +119,13 @@ a {
     }
 
     .button {
-        transition: all 0.1s ease-in-out;
+        transition: all 0.2s ease-in-out;
         font-size: 1.5em;
-        width: 270px;
+
         &:hover {
-            width: 300px;
-            opacity: 0.7;
+            font-size: 2em;
+            margin-top: -16px;
+            margin-bottom: -10px;
         }
 
         color: #1B6F0E !important;
