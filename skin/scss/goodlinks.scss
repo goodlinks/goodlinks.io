@@ -7,7 +7,6 @@ a {
         top: 50%;
         left: 50%;
         min-width: 100%;
-        min-height: 100%;
         width: auto;
         height: auto;
         max-width: 100%;
@@ -79,7 +78,7 @@ a {
 #cta {
     background: #1B6F0E;
     color: white;
-    padding: 3.5em 0 4em 0;
+    padding: 3.5em 1em 4em 1em;
     text-align: center;
 
     input[type=submit] {
