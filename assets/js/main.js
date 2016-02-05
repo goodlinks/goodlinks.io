@@ -87,8 +87,7 @@
 						delay:		0,
 						range:		0.5,
 						anchor:		'top',
-						on:			function() { $header.addClass('alt reveal'); },
-						off:		function() { $header.removeClass('alt'); }
+						on:			function() { $header.addClass('alt reveal'); }
 					});
 
 				});

@@ -2798,7 +2798,6 @@
 	}
 
 	#header {
-		background: #444;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -2809,23 +2808,6 @@
 		width: 100%;
 		z-index: 10000;
 	}
-
-		#header h1 {
-			color: inherit;
-			height: inherit;
-			left: 1.25em;
-			line-height: inherit;
-			margin: 0;
-			padding: 0;
-			position: absolute;
-			top: 0;
-		}
-
-			#header h1 a {
-				color: #fff;
-				font-weight: 400;
-				border: 0;
-			}
 
 		#header nav {
 			height: inherit;
@@ -3028,12 +3010,6 @@
 /* Banner */
 
 	#banner {
-		background-attachment: scroll,							fixed;
-		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: top left,						center center;
-		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
 		color: #fff;
 		padding: 12em 0 20em 0;
 		text-align: center;
@@ -3115,10 +3091,6 @@
 				margin: 1em 0 0 0;
 				padding: 1em 0 1.25em 0;
 			}
-
-	body.landing #main {
-		margin-top: -14em;
-	}
 
 /* Footer */
 
