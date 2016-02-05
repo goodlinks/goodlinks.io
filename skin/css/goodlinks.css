@@ -162,3 +162,8 @@ section.box ul li {
 section.box ul li:nth-last-child(1) {
   margin-bottom: 0;
 }
+
+/* line 174, ../scss/goodlinks.scss */
+section.box.pricing .major p {
+  max-width: 23em;
+}

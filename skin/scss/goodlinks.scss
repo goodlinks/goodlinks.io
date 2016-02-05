@@ -168,3 +168,11 @@ section.box {
         }
     }
 }
+
+section.box.pricing {
+    .major {
+        p {
+            max-width: 23em;
+        }
+    }
+}
