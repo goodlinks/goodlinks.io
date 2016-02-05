@@ -95,6 +95,16 @@ a {
     }
 }
 
+@media screen and (max-width: 600px) {
+    .hero-video {
+        display: none;
+    }
+    .hero-image-for-mobile {
+        width: 100%;
+        display: inline !important;
+    }
+}
+
 #cta {
     background: #1B6F0E;
     color: white;

@@ -87,18 +87,30 @@ a {
     padding-top: 25em;
   }
 }
-/* line 98, ../scss/goodlinks.scss */
+@media screen and (max-width: 600px) {
+  /* line 99, ../scss/goodlinks.scss */
+  .hero-video {
+    display: none;
+  }
+
+  /* line 102, ../scss/goodlinks.scss */
+  .hero-image-for-mobile {
+    width: 100%;
+    display: inline !important;
+  }
+}
+/* line 108, ../scss/goodlinks.scss */
 #cta {
   background: #1B6F0E;
   color: white;
   padding: 3.5em 1em 4em 1em;
   text-align: center;
 }
-/* line 104, ../scss/goodlinks.scss */
+/* line 114, ../scss/goodlinks.scss */
 #cta input[type=submit] {
   color: #1B6F0E;
 }
-/* line 108, ../scss/goodlinks.scss */
+/* line 118, ../scss/goodlinks.scss */
 #cta p {
   font-size: 1.5em;
   line-height: 1.5em;
@@ -106,46 +118,46 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 116, ../scss/goodlinks.scss */
+/* line 126, ../scss/goodlinks.scss */
 #cta p a {
   color: inherit;
 }
-/* line 121, ../scss/goodlinks.scss */
+/* line 131, ../scss/goodlinks.scss */
 #cta .button {
   transition: all 0.2s ease-in-out;
   font-size: 1.5em;
   color: #1B6F0E !important;
 }
-/* line 125, ../scss/goodlinks.scss */
+/* line 135, ../scss/goodlinks.scss */
 #cta .button:hover {
   font-size: 2em;
   margin-top: -16px;
   margin-bottom: -10px;
 }
 
-/* line 135, ../scss/goodlinks.scss */
+/* line 145, ../scss/goodlinks.scss */
 .icon.major {
   background-color: #0B8E45;
   color: #ffffff;
 }
 
-/* line 141, ../scss/goodlinks.scss */
+/* line 151, ../scss/goodlinks.scss */
 section.lets-face-it p {
   text-align: left;
 }
 
-/* line 147, ../scss/goodlinks.scss */
+/* line 157, ../scss/goodlinks.scss */
 section.box header.major {
   max-width: 45em;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 153, ../scss/goodlinks.scss */
+/* line 163, ../scss/goodlinks.scss */
 section.box h2 {
   border-bottom: solid 2px #e5e5e5;
   padding-bottom: 0.5em;
 }
-/* line 158, ../scss/goodlinks.scss */
+/* line 168, ../scss/goodlinks.scss */
 section.box p {
   width: 100%;
   display: inline-block;
@@ -156,7 +168,7 @@ section.box p {
   font-size: 1.5em;
   line-height: 1.5em;
 }
-/* line 170, ../scss/goodlinks.scss */
+/* line 180, ../scss/goodlinks.scss */
 section.box ul {
   padding-left: 3em;
   text-align: left;
@@ -165,17 +177,17 @@ section.box ul {
   font-size: 1.5em;
   line-height: 1.5em;
 }
-/* line 178, ../scss/goodlinks.scss */
+/* line 188, ../scss/goodlinks.scss */
 section.box ul li {
   padding-left: 0.5em;
   margin-bottom: 1em;
 }
-/* line 181, ../scss/goodlinks.scss */
+/* line 191, ../scss/goodlinks.scss */
 section.box ul li:nth-last-child(1) {
   margin-bottom: 0;
 }
 
-/* line 190, ../scss/goodlinks.scss */
+/* line 200, ../scss/goodlinks.scss */
 section.box.pricing .major p {
   max-width: 23em;
 }
