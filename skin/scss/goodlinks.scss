@@ -28,6 +28,9 @@ a {
             margin-left: 34px;
             margin-top: 30px;
             width: 146px;
+            path,rect {
+                fill: white;
+            }
         }
 
         //  cursor: url(/image/smiley-icon.png), auto;
@@ -175,6 +178,10 @@ section.box {
         margin: 0;
         font-size: 1.5em;
         line-height: 1.5em;
+
+        strong {
+            text-decoration: underline;
+        }
     }
 
     ul {
@@ -191,6 +198,10 @@ section.box {
             &:nth-last-child(1) {
                 margin-bottom: 0;
             }
+        }
+
+        strong {
+            text-decoration: underline;
         }
     }
 }

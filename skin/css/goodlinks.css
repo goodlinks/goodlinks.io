@@ -30,11 +30,15 @@ a {
   margin-top: 30px;
   width: 146px;
 }
-/* line 35, ../scss/goodlinks.scss */
+/* line 31, ../scss/goodlinks.scss */
+#header svg:hover path, #header svg:hover rect {
+  fill: white;
+}
+/* line 38, ../scss/goodlinks.scss */
 #header svg path, #header svg rect {
   fill: black;
 }
-/* line 40, ../scss/goodlinks.scss */
+/* line 43, ../scss/goodlinks.scss */
 #header .we-are-hiring {
   padding-top: 0;
   display: inline-block;
@@ -45,35 +49,35 @@ a {
   color: black;
   font-size: 13px;
 }
-/* line 52, ../scss/goodlinks.scss */
+/* line 55, ../scss/goodlinks.scss */
 #header .we-are-hiring:hover {
   color: white;
 }
-/* line 57, ../scss/goodlinks.scss */
+/* line 60, ../scss/goodlinks.scss */
 #header #nav {
   font-size: 20px;
   right: 20px;
   top: 26px;
 }
-/* line 64, ../scss/goodlinks.scss */
+/* line 67, ../scss/goodlinks.scss */
 #header #nav ul li a {
   color: black;
   font-size: inherit;
 }
-/* line 68, ../scss/goodlinks.scss */
+/* line 71, ../scss/goodlinks.scss */
 #header #nav ul li a:hover {
   color: white;
   text-decoration: underline;
 }
 
-/* line 78, ../scss/goodlinks.scss */
+/* line 81, ../scss/goodlinks.scss */
 #banner {
   position: absolute;
   top: 0;
   width: 100%;
   color: black;
 }
-/* line 84, ../scss/goodlinks.scss */
+/* line 87, ../scss/goodlinks.scss */
 #banner h2 {
   background-color: rgba(255, 255, 255, 0.47);
   display: inline-block;
@@ -82,35 +86,35 @@ a {
 }
 
 @media screen and (min-width: 840px) {
-  /* line 93, ../scss/goodlinks.scss */
+  /* line 96, ../scss/goodlinks.scss */
   #banner {
     padding-top: 25em;
   }
 }
 @media screen and (max-width: 736px) {
-  /* line 99, ../scss/goodlinks.scss */
+  /* line 102, ../scss/goodlinks.scss */
   .hero-video {
     display: none;
   }
 
-  /* line 102, ../scss/goodlinks.scss */
+  /* line 105, ../scss/goodlinks.scss */
   .hero-image-for-mobile {
     width: 100%;
     display: inline !important;
   }
 }
-/* line 108, ../scss/goodlinks.scss */
+/* line 111, ../scss/goodlinks.scss */
 #cta {
   background: #1B6F0E;
   color: white;
   padding: 3.5em 1em 4em 1em;
   text-align: center;
 }
-/* line 114, ../scss/goodlinks.scss */
+/* line 117, ../scss/goodlinks.scss */
 #cta input[type=submit] {
   color: #1B6F0E;
 }
-/* line 118, ../scss/goodlinks.scss */
+/* line 121, ../scss/goodlinks.scss */
 #cta p {
   font-size: 1.5em;
   line-height: 1.5em;
@@ -118,46 +122,46 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 126, ../scss/goodlinks.scss */
+/* line 129, ../scss/goodlinks.scss */
 #cta p a {
   color: inherit;
 }
-/* line 131, ../scss/goodlinks.scss */
+/* line 134, ../scss/goodlinks.scss */
 #cta .button {
   transition: all 0.2s ease-in-out;
   font-size: 1.5em;
   color: #1B6F0E !important;
 }
-/* line 135, ../scss/goodlinks.scss */
+/* line 138, ../scss/goodlinks.scss */
 #cta .button:hover {
   font-size: 2em;
   margin-top: -16px;
   margin-bottom: -10px;
 }
 
-/* line 145, ../scss/goodlinks.scss */
+/* line 148, ../scss/goodlinks.scss */
 .icon.major {
   background-color: #0B8E45;
   color: #ffffff;
 }
 
-/* line 151, ../scss/goodlinks.scss */
+/* line 154, ../scss/goodlinks.scss */
 section.lets-face-it p {
   text-align: left;
 }
 
-/* line 157, ../scss/goodlinks.scss */
+/* line 160, ../scss/goodlinks.scss */
 section.box header.major {
   max-width: 45em;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 163, ../scss/goodlinks.scss */
+/* line 166, ../scss/goodlinks.scss */
 section.box h2 {
   border-bottom: solid 2px #e5e5e5;
   padding-bottom: 0.5em;
 }
-/* line 168, ../scss/goodlinks.scss */
+/* line 171, ../scss/goodlinks.scss */
 section.box p {
   width: 100%;
   display: inline-block;
@@ -168,7 +172,11 @@ section.box p {
   font-size: 1.5em;
   line-height: 1.5em;
 }
-/* line 180, ../scss/goodlinks.scss */
+/* line 182, ../scss/goodlinks.scss */
+section.box p strong {
+  text-decoration: underline;
+}
+/* line 187, ../scss/goodlinks.scss */
 section.box ul {
   padding-left: 3em;
   text-align: left;
@@ -177,17 +185,21 @@ section.box ul {
   font-size: 1.5em;
   line-height: 1.5em;
 }
-/* line 188, ../scss/goodlinks.scss */
+/* line 195, ../scss/goodlinks.scss */
 section.box ul li {
   padding-left: 0.5em;
   margin-bottom: 1em;
 }
-/* line 191, ../scss/goodlinks.scss */
+/* line 198, ../scss/goodlinks.scss */
 section.box ul li:nth-last-child(1) {
   margin-bottom: 0;
 }
+/* line 203, ../scss/goodlinks.scss */
+section.box ul strong {
+  text-decoration: underline;
+}
 
-/* line 200, ../scss/goodlinks.scss */
+/* line 211, ../scss/goodlinks.scss */
 section.box.pricing .major p {
   max-width: 23em;
 }
