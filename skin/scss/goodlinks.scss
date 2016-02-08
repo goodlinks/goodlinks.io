@@ -96,11 +96,32 @@ a {
     }
 }
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 841px) {
     #banner {
         padding-top: 16em;
+
+        .mobile-logo {
+            display: none;
+        }
     }
 }
+
+@media screen and (max-width: 840px) {
+    #banner {
+        .headline {
+            display: none;
+        }
+
+        .mobile-logo {
+            width: 200px;
+            height: auto;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
 
 @media screen and (max-width: 736px) {
     .hero-video {
