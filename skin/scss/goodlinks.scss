@@ -1,3 +1,8 @@
+p, ul {
+    font-size: 1.3em;
+    line-height: 1.4em;
+}
+
 a {
     color: #0B8E45;
 }
@@ -25,9 +30,7 @@ a {
         margin-left: 39px;
         margin-top: 35px;
         &:hover {
-            margin-left: 34px;
-            margin-top: 30px;
-            width: 146px;
+            opacity: 0.5;
         }
 
         //  cursor: url(/image/smiley-icon.png), auto;
@@ -55,7 +58,6 @@ a {
     }
 
     #nav {
-        font-size: 20px;
         right: 20px;
         top: 26px;
 
@@ -63,12 +65,17 @@ a {
             li {
                 a {
                     color: white;
-                    font-size: inherit;
+                    font-size: 20px;
 
                     &:hover {
                         color: white;
                         text-decoration: underline;
                     }
+                    
+                }
+
+                &:nth-last-child(1) a {
+                    font-weight: bold;
                 }
             }
         }
@@ -89,10 +96,15 @@ a {
     width: 100%;
     color: white;
 
-    h2 {
+    h1 {
         display: inline-block;
         padding: 0.5em;
-        color: inherit;
+        font-size: 45px;
+        line-height: 53px;
+        color: white;
+        max-width: 19em;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -144,9 +156,6 @@ a {
     }
 
     p {
-        font-size: 1.5em;
-        line-height: 1.5em;
-
         max-width: 24em;
         margin-left: auto;
         margin-right: auto;
@@ -161,9 +170,9 @@ a {
         font-size: 1.5em;
 
         &:hover {
-            font-size: 2em;
-            margin-top: -16px;
-            margin-bottom: -10px;
+            font-weight: bold;
+            padding-left: 2.5em;
+            padding-right: 2.5em;
         }
 
         color: #1B6F0E !important;
@@ -201,8 +210,6 @@ section.box {
         font-style: normal;
 
         margin: 0;
-        font-size: 1.5em;
-        line-height: 1.5em;
 
         strong {
             text-decoration: underline;
@@ -214,8 +221,6 @@ section.box {
         text-align: left;
         margin-top: 1em;
         margin-bottom: 0;
-        font-size: 1.5em;
-        line-height: 1.5em;
 
         li {
             padding-left: 0.5em;
