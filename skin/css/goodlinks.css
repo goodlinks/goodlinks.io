@@ -300,3 +300,14 @@ section.box.the-team ul li p a {
     margin-bottom: 1em;
   }
 }
+/* line 318, ../scss/goodlinks.scss */
+section.what-people-are-saying {
+  overflow: hidden;
+}
+/* line 321, ../scss/goodlinks.scss */
+section.what-people-are-saying .tweet {
+  max-width: 10em;
+  max-width: 24em;
+  float: left;
+  margin: 1.5em;
+}

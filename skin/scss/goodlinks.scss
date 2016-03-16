@@ -314,3 +314,14 @@ section.box.the-team {
         }
     }
 }
+
+section.what-people-are-saying {
+    overflow: hidden;
+
+    .tweet {
+        max-width: 10em;
+        max-width: 24em;
+        float: left;
+        margin: 1.5em;
+    }
+}
