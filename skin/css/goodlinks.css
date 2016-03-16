@@ -184,7 +184,7 @@ section.lets-face-it p {
 
 /* line 194, ../scss/goodlinks.scss */
 section.box header.major {
-  max-width: 45em;
+  max-width: 49em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -230,4 +230,59 @@ section.box ul strong {
 /* line 241, ../scss/goodlinks.scss */
 section.box.pricing .major p {
   max-width: 23em;
+}
+
+/* line 248, ../scss/goodlinks.scss */
+section.box.the-team .box-inner {
+  margin-top: 2em;
+  overflow: hidden;
+}
+/* line 253, ../scss/goodlinks.scss */
+section.box.the-team ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 258, ../scss/goodlinks.scss */
+section.box.the-team ul li {
+  width: 100%;
+  max-width: none;
+  float: left;
+}
+/* line 263, ../scss/goodlinks.scss */
+section.box.the-team ul li img {
+  width: 130px;
+  display: inline;
+  float: left;
+  margin-right: 1em;
+}
+/* line 270, ../scss/goodlinks.scss */
+section.box.the-team ul li p {
+  display: inline;
+  margin: 0;
+  font-size: inherit;
+}
+
+@media screen and (min-width: 940px) {
+  /* line 281, ../scss/goodlinks.scss */
+  section.box.the-team .box-inner {
+    text-align: center;
+  }
+  /* line 285, ../scss/goodlinks.scss */
+  section.box.the-team ul {
+    display: inline-block;
+  }
+  /* line 288, ../scss/goodlinks.scss */
+  section.box.the-team ul li {
+    text-align: center;
+    width: 33%;
+  }
+  /* line 292, ../scss/goodlinks.scss */
+  section.box.the-team ul li img {
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+  }
 }

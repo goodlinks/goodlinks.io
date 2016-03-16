@@ -192,7 +192,7 @@ section.lets-face-it {
 
 section.box {
     header.major {
-        max-width: 45em;
+        max-width: 49em;
         margin-left: auto;
         margin-right: auto;
     }
@@ -240,6 +240,63 @@ section.box.pricing {
     .major {
         p {
             max-width: 23em;
+        }
+    }
+}
+
+section.box.the-team {
+    .box-inner {
+        margin-top: 2em;
+        overflow: hidden;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            width: 100%;
+            max-width: none;
+            float: left;
+
+            img {
+                width: 130px;
+                display: inline;
+                float: left;
+                margin-right: 1em;
+            }
+
+            p {
+                display: inline;
+                margin: 0;
+                font-size: inherit;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 940px) {
+    section.box.the-team {
+        .box-inner {
+            text-align: center;
+        }
+
+        ul {
+            display: inline-block;
+
+            li {
+                text-align: center;
+                width: 33%;
+
+                img {
+                    float: none;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 1em;
+                }
+            }
         }
     }
 }

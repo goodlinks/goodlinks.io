@@ -235,6 +235,7 @@
 					<header class="major">
 						<a name="pricing"></a>
 						<h2>Pricing</h2>
+						<!-- todo: this shouldn't be inside <header> -->
 						<p>
 							We like pricing models that are simple and profitable for both of us.
 							We have packages starting at:
@@ -252,8 +253,38 @@
 						</p>
 					</header>
 				</section>
-			</section>
 
+				<section class="box the-team">
+					<header class="major">
+						<h2>The Team</h2>
+					</header>
+					<div class="box-inner">
+						<ul>
+							<li>
+								<img src="/image/kalen-jordan-goodlinks.png">
+								<p>
+									Kalen is a maker, the founder of MageMail, a proud husband and dad,
+									and the Rollerblader-In-Chief
+								</p>
+							</li>
+							<li>
+								<img src="/image/jordan-donaldson-goodlinks.png">
+								<p>
+									Jordan is a straight-up baller from New York - he crushes ecommerce
+									in his sleep.
+								</p>
+							</li>
+							<li>
+								<img src="/image/antonela-debiasi-goodlinks.png">
+								<p>
+									Antonela makes magic happen on the screen - smashin' pixels like
+									you don't even know
+								</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</section>
 
 			<!-- CTA -->
 			<section id="cta">
@@ -338,6 +369,13 @@
 					resizeVideoOverlay();
 				}
 			});
+
+			// Hack - what we should do is detect when the video finishes loading
+			setTimeout(function() { resizeVideoOverlay(); }, 1000);
+			setTimeout(function() { resizeVideoOverlay(); }, 2000);
+			setTimeout(function() { resizeVideoOverlay(); }, 3000);
+			setTimeout(function() { resizeVideoOverlay(); }, 5000);
+			setTimeout(function() { resizeVideoOverlay(); }, 10000);
 		</script>
 	</body>
 </html>
