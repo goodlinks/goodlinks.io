@@ -7,6 +7,12 @@ a {
     color: #0B8E45;
 }
 
+@media screen and (max-width: 840px) {
+    p br {
+        display: none;
+    }
+}
+
 #header {
     &+ video, &+img {
         top: 50%;
@@ -146,13 +152,13 @@ a {
 }
 
 #cta {
-    background: #1B6F0E;
+    background: #2ECC71;
     color: white;
     padding: 3.5em 1em 4em 1em;
     text-align: center;
 
     input[type=submit] {
-        color: #1B6F0E;
+        color: #2ECC71;
     }
 
     p {
@@ -175,12 +181,12 @@ a {
             padding-right: 2.5em;
         }
 
-        color: #1B6F0E !important;
+        color: #2ECC71 !important;
     }
 }
 
 .icon.major {
-    background-color: #0B8E45;
+    background-color: #2ECC71;
     color: #ffffff;
 }
 
@@ -271,9 +277,17 @@ section.box.the-team {
                 display: inline;
                 margin: 0;
                 font-size: inherit;
+                a .fa {
+                    color: #D0D0D0;
+                }
+
+                a {
+                    border-bottom: none;
+                }
             }
         }
     }
+
 }
 
 @media screen and (min-width: 940px) {

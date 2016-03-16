@@ -9,7 +9,13 @@ a {
   color: #0B8E45;
 }
 
-/* line 11, ../scss/goodlinks.scss */
+@media screen and (max-width: 840px) {
+  /* line 11, ../scss/goodlinks.scss */
+  p br {
+    display: none;
+  }
+}
+/* line 17, ../scss/goodlinks.scss */
 #header + video, #header + img {
   top: 50%;
   left: 50%;
@@ -22,7 +28,7 @@ a {
   transition: 1s opacity;
   opacity: 0.9;
 }
-/* line 25, ../scss/goodlinks.scss */
+/* line 31, ../scss/goodlinks.scss */
 #header svg {
   transition: all 0.2s ease-in-out;
   width: 136px;
@@ -30,15 +36,15 @@ a {
   margin-left: 39px;
   margin-top: 35px;
 }
-/* line 32, ../scss/goodlinks.scss */
+/* line 38, ../scss/goodlinks.scss */
 #header svg:hover {
   opacity: 0.5;
 }
-/* line 38, ../scss/goodlinks.scss */
+/* line 44, ../scss/goodlinks.scss */
 #header svg path, #header svg rect {
   fill: white;
 }
-/* line 43, ../scss/goodlinks.scss */
+/* line 49, ../scss/goodlinks.scss */
 #header .we-are-hiring {
   padding-top: 0;
   display: inline-block;
@@ -49,31 +55,31 @@ a {
   color: white;
   font-size: 13px;
 }
-/* line 55, ../scss/goodlinks.scss */
+/* line 61, ../scss/goodlinks.scss */
 #header .we-are-hiring:hover {
   text-decoration: underline;
 }
-/* line 60, ../scss/goodlinks.scss */
+/* line 66, ../scss/goodlinks.scss */
 #header #nav {
   right: 20px;
   top: 26px;
 }
-/* line 66, ../scss/goodlinks.scss */
+/* line 72, ../scss/goodlinks.scss */
 #header #nav ul li a {
   color: white;
   font-size: 20px;
 }
-/* line 70, ../scss/goodlinks.scss */
+/* line 76, ../scss/goodlinks.scss */
 #header #nav ul li a:hover {
   color: white;
   text-decoration: underline;
 }
-/* line 77, ../scss/goodlinks.scss */
+/* line 83, ../scss/goodlinks.scss */
 #header #nav ul li:nth-last-child(1) a {
   font-weight: bold;
 }
 
-/* line 85, ../scss/goodlinks.scss */
+/* line 91, ../scss/goodlinks.scss */
 .video-overlay {
   background-color: #000000;
   opacity: 0.6;
@@ -82,14 +88,14 @@ a {
   left: 0;
 }
 
-/* line 93, ../scss/goodlinks.scss */
+/* line 99, ../scss/goodlinks.scss */
 #banner {
   position: absolute;
   top: 0;
   width: 100%;
   color: white;
 }
-/* line 99, ../scss/goodlinks.scss */
+/* line 105, ../scss/goodlinks.scss */
 #banner h1 {
   display: inline-block;
   padding: 0.5em;
@@ -102,21 +108,21 @@ a {
 }
 
 @media screen and (min-width: 841px) {
-  /* line 112, ../scss/goodlinks.scss */
+  /* line 118, ../scss/goodlinks.scss */
   #banner {
     padding-top: 16em;
   }
-  /* line 115, ../scss/goodlinks.scss */
+  /* line 121, ../scss/goodlinks.scss */
   #banner .mobile-logo {
     display: none;
   }
 }
 @media screen and (max-width: 840px) {
-  /* line 123, ../scss/goodlinks.scss */
+  /* line 129, ../scss/goodlinks.scss */
   #banner .headline {
     display: none;
   }
-  /* line 127, ../scss/goodlinks.scss */
+  /* line 133, ../scss/goodlinks.scss */
   #banner .mobile-logo {
     width: 200px;
     height: auto;
@@ -126,74 +132,74 @@ a {
   }
 }
 @media screen and (max-width: 736px) {
-  /* line 139, ../scss/goodlinks.scss */
+  /* line 145, ../scss/goodlinks.scss */
   .hero-video {
     display: none;
   }
 
-  /* line 142, ../scss/goodlinks.scss */
+  /* line 148, ../scss/goodlinks.scss */
   .hero-image-for-mobile {
     width: 100%;
     display: inline !important;
   }
 }
-/* line 148, ../scss/goodlinks.scss */
+/* line 154, ../scss/goodlinks.scss */
 #cta {
-  background: #1B6F0E;
+  background: #2ECC71;
   color: white;
   padding: 3.5em 1em 4em 1em;
   text-align: center;
 }
-/* line 154, ../scss/goodlinks.scss */
+/* line 160, ../scss/goodlinks.scss */
 #cta input[type=submit] {
-  color: #1B6F0E;
+  color: #2ECC71;
 }
-/* line 158, ../scss/goodlinks.scss */
+/* line 164, ../scss/goodlinks.scss */
 #cta p {
   max-width: 24em;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 163, ../scss/goodlinks.scss */
+/* line 169, ../scss/goodlinks.scss */
 #cta p a {
   color: inherit;
 }
-/* line 168, ../scss/goodlinks.scss */
+/* line 174, ../scss/goodlinks.scss */
 #cta .button {
   transition: all 0.2s ease-in-out;
   font-size: 1.5em;
-  color: #1B6F0E !important;
+  color: #2ECC71 !important;
 }
-/* line 172, ../scss/goodlinks.scss */
+/* line 178, ../scss/goodlinks.scss */
 #cta .button:hover {
   font-weight: bold;
   padding-left: 2.5em;
   padding-right: 2.5em;
 }
 
-/* line 182, ../scss/goodlinks.scss */
+/* line 188, ../scss/goodlinks.scss */
 .icon.major {
-  background-color: #0B8E45;
+  background-color: #2ECC71;
   color: #ffffff;
 }
 
-/* line 188, ../scss/goodlinks.scss */
+/* line 194, ../scss/goodlinks.scss */
 section.lets-face-it p {
   text-align: left;
 }
 
-/* line 194, ../scss/goodlinks.scss */
+/* line 200, ../scss/goodlinks.scss */
 section.box header.major {
   max-width: 49em;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 200, ../scss/goodlinks.scss */
+/* line 206, ../scss/goodlinks.scss */
 section.box h2 {
   border-bottom: solid 2px #e5e5e5;
   padding-bottom: 0.5em;
 }
-/* line 205, ../scss/goodlinks.scss */
+/* line 211, ../scss/goodlinks.scss */
 section.box p {
   width: 100%;
   display: inline-block;
@@ -202,82 +208,90 @@ section.box p {
   font-style: normal;
   margin: 0;
 }
-/* line 214, ../scss/goodlinks.scss */
+/* line 220, ../scss/goodlinks.scss */
 section.box p strong {
   text-decoration: underline;
 }
-/* line 219, ../scss/goodlinks.scss */
+/* line 225, ../scss/goodlinks.scss */
 section.box ul {
   padding-left: 3em;
   text-align: left;
   margin-top: 1em;
   margin-bottom: 0;
 }
-/* line 225, ../scss/goodlinks.scss */
+/* line 231, ../scss/goodlinks.scss */
 section.box ul li {
   padding-left: 0.5em;
   margin-bottom: 1em;
 }
-/* line 228, ../scss/goodlinks.scss */
+/* line 234, ../scss/goodlinks.scss */
 section.box ul li:nth-last-child(1) {
   margin-bottom: 0;
 }
-/* line 233, ../scss/goodlinks.scss */
+/* line 239, ../scss/goodlinks.scss */
 section.box ul strong {
   text-decoration: underline;
 }
 
-/* line 241, ../scss/goodlinks.scss */
+/* line 247, ../scss/goodlinks.scss */
 section.box.pricing .major p {
   max-width: 23em;
 }
 
-/* line 248, ../scss/goodlinks.scss */
+/* line 254, ../scss/goodlinks.scss */
 section.box.the-team .box-inner {
   margin-top: 2em;
   overflow: hidden;
 }
-/* line 253, ../scss/goodlinks.scss */
+/* line 259, ../scss/goodlinks.scss */
 section.box.the-team ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-/* line 258, ../scss/goodlinks.scss */
+/* line 264, ../scss/goodlinks.scss */
 section.box.the-team ul li {
   width: 100%;
   max-width: none;
   float: left;
 }
-/* line 263, ../scss/goodlinks.scss */
+/* line 269, ../scss/goodlinks.scss */
 section.box.the-team ul li img {
   width: 130px;
   display: inline;
   float: left;
   margin-right: 1em;
 }
-/* line 270, ../scss/goodlinks.scss */
+/* line 276, ../scss/goodlinks.scss */
 section.box.the-team ul li p {
   display: inline;
   margin: 0;
   font-size: inherit;
 }
+/* line 280, ../scss/goodlinks.scss */
+section.box.the-team ul li p a .fa {
+  color: #D0D0D0;
+}
+/* line 284, ../scss/goodlinks.scss */
+section.box.the-team ul li p a {
+  border-bottom: none;
+}
 
 @media screen and (min-width: 940px) {
-  /* line 281, ../scss/goodlinks.scss */
+  /* line 295, ../scss/goodlinks.scss */
   section.box.the-team .box-inner {
     text-align: center;
   }
-  /* line 285, ../scss/goodlinks.scss */
+  /* line 299, ../scss/goodlinks.scss */
   section.box.the-team ul {
     display: inline-block;
   }
-  /* line 288, ../scss/goodlinks.scss */
+  /* line 302, ../scss/goodlinks.scss */
   section.box.the-team ul li {
     text-align: center;
     width: 33%;
   }
-  /* line 292, ../scss/goodlinks.scss */
+  /* line 306, ../scss/goodlinks.scss */
   section.box.the-team ul li img {
     float: none;
     display: block;
