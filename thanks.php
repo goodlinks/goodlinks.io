@@ -128,13 +128,6 @@ use \Michelf\MarkdownExtra;
         <img src="/image/goodlinks-logo.png">
     </div>
 </div>
-<div class="nav-wrapper">
-    <ul>
-        <li><a href="http://blog.goodlinks.io">Blog</a></li>
-        <li><a href="http://podcast.goodlinks.io">Podcast</a></li>
-        <li><a href="http://docs.goodlinks.io">Docs</a></li>
-    </ul>
-</div>
 <div class="content">
     <?php
     echo MarkdownExtra::defaultTransform(file_get_contents('thanks.md'));
