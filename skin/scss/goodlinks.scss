@@ -325,3 +325,45 @@ section.what-people-are-saying {
         margin: 1.5em;
     }
 }
+
+section.how-it-works {
+    .steps {
+        margin-top: 2em;
+
+        .step {
+            overflow: hidden;
+
+            .step-image {
+                padding: 1em;
+                width: 50%;
+                float: left;
+
+                img {
+                    width: 100%;
+                    box-shadow: 0px 0px 34px #E0E0E0;
+                }
+            }
+
+            .step-description {
+                padding: 1em;
+                text-align: left;
+                width: 50%;
+                float: left;
+
+                h3 {
+                    margin: 0;
+                }
+
+                p {
+                    padding: 0;
+                    font-size: 1.3em;
+                }
+            }
+        }
+
+        hr {
+            border-bottom: solid 2px #F9F9F9;
+            margin: 2em 3em;
+        }
+    }
+}
