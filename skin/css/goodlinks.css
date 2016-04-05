@@ -328,30 +328,33 @@ section.how-it-works .steps .step .step-image {
 /* line 340, ../scss/goodlinks.scss */
 section.how-it-works .steps .step .step-image img {
   width: 100%;
-  box-shadow: 0px 0px 34px #E0E0E0;
 }
-/* line 346, ../scss/goodlinks.scss */
+/* line 345, ../scss/goodlinks.scss */
 section.how-it-works .steps .step .step-description {
   padding: 1em;
   text-align: left;
   float: left;
 }
-/* line 351, ../scss/goodlinks.scss */
+/* line 350, ../scss/goodlinks.scss */
 section.how-it-works .steps .step .step-description h3 {
   margin: 0;
 }
-/* line 355, ../scss/goodlinks.scss */
+/* line 354, ../scss/goodlinks.scss */
 section.how-it-works .steps .step .step-description p {
   padding: 0;
   font-size: 1.3em;
 }
-/* line 362, ../scss/goodlinks.scss */
+/* line 361, ../scss/goodlinks.scss */
 section.how-it-works .steps hr {
   border-bottom: solid 2px #F9F9F9;
   margin: 2em 3em;
 }
 
 @media screen and (min-width: 640px) {
+  /* line 370, ../scss/goodlinks.scss */
+  .steps .step {
+    position: relative;
+  }
   /* line 372, ../scss/goodlinks.scss */
   .steps .step .step-image {
     width: 50%;
@@ -359,5 +362,9 @@ section.how-it-works .steps hr {
   /* line 376, ../scss/goodlinks.scss */
   .steps .step .step-description {
     width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
   }
 }
