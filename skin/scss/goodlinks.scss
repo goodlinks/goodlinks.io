@@ -274,7 +274,6 @@ section.box.the-team {
             }
 
             p {
-                display: inline;
                 margin: 0;
                 font-size: inherit;
                 a .fa {
@@ -309,6 +308,19 @@ section.box.the-team {
                     margin-left: auto;
                     margin-right: auto;
                     margin-bottom: 1em;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 940px) {
+    section.box.the-team.advisors {
+        ul {
+            li {
+                width: 25%;
+                p {
+                    font-size: 18px;
                 }
             }
         }
