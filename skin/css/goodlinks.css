@@ -261,37 +261,39 @@ section.box.the-team ul li img {
   display: inline;
   float: left;
   margin-right: 1em;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
 }
-/* line 276, ../scss/goodlinks.scss */
+/* line 278, ../scss/goodlinks.scss */
 section.box.the-team ul li p {
   margin: 0;
   display: inline;
   font-size: inherit;
 }
-/* line 280, ../scss/goodlinks.scss */
+/* line 282, ../scss/goodlinks.scss */
 section.box.the-team ul li p a .fa {
   color: #D0D0D0;
 }
-/* line 284, ../scss/goodlinks.scss */
+/* line 286, ../scss/goodlinks.scss */
 section.box.the-team ul li p a {
   border-bottom: none;
 }
 
 @media screen and (min-width: 940px) {
-  /* line 295, ../scss/goodlinks.scss */
+  /* line 297, ../scss/goodlinks.scss */
   section.box.the-team .box-inner {
     text-align: center;
   }
-  /* line 299, ../scss/goodlinks.scss */
+  /* line 301, ../scss/goodlinks.scss */
   section.box.the-team ul {
     display: inline-block;
   }
-  /* line 302, ../scss/goodlinks.scss */
+  /* line 304, ../scss/goodlinks.scss */
   section.box.the-team ul li {
     text-align: center;
     width: 33%;
   }
-  /* line 306, ../scss/goodlinks.scss */
+  /* line 308, ../scss/goodlinks.scss */
   section.box.the-team ul li img {
     float: none;
     display: block;
@@ -301,21 +303,21 @@ section.box.the-team ul li p a {
   }
 }
 @media screen and (min-width: 940px) {
-  /* line 321, ../scss/goodlinks.scss */
+  /* line 323, ../scss/goodlinks.scss */
   section.box.the-team.advisors ul li {
     width: 25%;
     line-height: 20px;
   }
-  /* line 324, ../scss/goodlinks.scss */
+  /* line 326, ../scss/goodlinks.scss */
   section.box.the-team.advisors ul li p {
     font-size: 18px;
   }
 }
-/* line 332, ../scss/goodlinks.scss */
+/* line 334, ../scss/goodlinks.scss */
 section.what-people-are-saying {
   overflow: hidden;
 }
-/* line 335, ../scss/goodlinks.scss */
+/* line 337, ../scss/goodlinks.scss */
 section.what-people-are-saying .tweet {
   max-width: 10em;
   max-width: 24em;
@@ -323,54 +325,54 @@ section.what-people-are-saying .tweet {
   margin: 1.5em;
 }
 
-/* line 344, ../scss/goodlinks.scss */
+/* line 346, ../scss/goodlinks.scss */
 section.how-it-works .steps {
   margin-top: 2em;
 }
-/* line 347, ../scss/goodlinks.scss */
+/* line 349, ../scss/goodlinks.scss */
 section.how-it-works .steps .step {
   overflow: hidden;
 }
-/* line 350, ../scss/goodlinks.scss */
+/* line 352, ../scss/goodlinks.scss */
 section.how-it-works .steps .step .step-image {
   padding: 1em;
   float: left;
 }
-/* line 354, ../scss/goodlinks.scss */
+/* line 356, ../scss/goodlinks.scss */
 section.how-it-works .steps .step .step-image img {
   width: 100%;
 }
-/* line 359, ../scss/goodlinks.scss */
+/* line 361, ../scss/goodlinks.scss */
 section.how-it-works .steps .step .step-description {
   padding: 1em;
   text-align: left;
   float: left;
 }
-/* line 364, ../scss/goodlinks.scss */
+/* line 366, ../scss/goodlinks.scss */
 section.how-it-works .steps .step .step-description h3 {
   margin: 0;
 }
-/* line 368, ../scss/goodlinks.scss */
+/* line 370, ../scss/goodlinks.scss */
 section.how-it-works .steps .step .step-description p {
   padding: 0;
   font-size: 1.3em;
 }
-/* line 375, ../scss/goodlinks.scss */
+/* line 377, ../scss/goodlinks.scss */
 section.how-it-works .steps hr {
   border-bottom: solid 2px #F9F9F9;
   margin: 2em 3em;
 }
 
 @media screen and (min-width: 640px) {
-  /* line 384, ../scss/goodlinks.scss */
+  /* line 386, ../scss/goodlinks.scss */
   .steps .step {
     position: relative;
   }
-  /* line 386, ../scss/goodlinks.scss */
+  /* line 388, ../scss/goodlinks.scss */
   .steps .step .step-image {
     width: 50%;
   }
-  /* line 390, ../scss/goodlinks.scss */
+  /* line 392, ../scss/goodlinks.scss */
   .steps .step .step-description {
     width: 50%;
     position: absolute;
