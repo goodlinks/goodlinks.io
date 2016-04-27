@@ -8,7 +8,11 @@
 
 <header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
     <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
-        {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="http://goodlinks.io/image/goodlinks-logo-post-detail.png" alt="{{@blog.title}}" /></a>{{/if}}
+        {{#if image}}
+            {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img style="width: 41px;" src="http://goodlinks.io/image/goodlinks-logo-post-detail-with-background.svg" alt="{{@blog.title}}" /></a>{{/if}}
+        {{else}}
+            {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="http://goodlinks.io/image/goodlinks-logo-post-detail-no-background.png" alt="{{@blog.title}}" /></a>{{/if}}
+        {{/if}}
         {{#if @blog.navigation}}
             <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
         {{/if}}
