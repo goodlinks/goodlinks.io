@@ -275,10 +275,13 @@ section.box.the-team {
                 -webkit-filter: grayscale(100%);
             }
 
+            line-height: 20px;
+
             p {
                 margin: 0;
                 display: inline;
                 font-size: inherit;
+                font-size: 18px;
                 a .fa {
                     color: #D0D0D0;
                 }
@@ -303,7 +306,7 @@ section.box.the-team {
 
             li {
                 text-align: center;
-                width: 33%;
+                width: 25%;
 
                 img {
                     float: none;

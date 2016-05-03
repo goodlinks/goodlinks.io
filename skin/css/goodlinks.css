@@ -254,6 +254,7 @@ section.box.the-team ul li {
   width: 100%;
   max-width: none;
   float: left;
+  line-height: 20px;
 }
 /* line 269, ../scss/goodlinks.scss */
 section.box.the-team ul li img {
@@ -264,36 +265,37 @@ section.box.the-team ul li img {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
 }
-/* line 278, ../scss/goodlinks.scss */
+/* line 280, ../scss/goodlinks.scss */
 section.box.the-team ul li p {
   margin: 0;
   display: inline;
   font-size: inherit;
+  font-size: 18px;
 }
-/* line 282, ../scss/goodlinks.scss */
+/* line 285, ../scss/goodlinks.scss */
 section.box.the-team ul li p a .fa {
   color: #D0D0D0;
 }
-/* line 286, ../scss/goodlinks.scss */
+/* line 289, ../scss/goodlinks.scss */
 section.box.the-team ul li p a {
   border-bottom: none;
 }
 
 @media screen and (min-width: 940px) {
-  /* line 297, ../scss/goodlinks.scss */
+  /* line 300, ../scss/goodlinks.scss */
   section.box.the-team .box-inner {
     text-align: center;
   }
-  /* line 301, ../scss/goodlinks.scss */
+  /* line 304, ../scss/goodlinks.scss */
   section.box.the-team ul {
     display: inline-block;
   }
-  /* line 304, ../scss/goodlinks.scss */
+  /* line 307, ../scss/goodlinks.scss */
   section.box.the-team ul li {
     text-align: center;
-    width: 33%;
+    width: 25%;
   }
-  /* line 308, ../scss/goodlinks.scss */
+  /* line 311, ../scss/goodlinks.scss */
   section.box.the-team ul li img {
     float: none;
     display: block;
@@ -303,21 +305,21 @@ section.box.the-team ul li p a {
   }
 }
 @media screen and (min-width: 940px) {
-  /* line 323, ../scss/goodlinks.scss */
+  /* line 326, ../scss/goodlinks.scss */
   section.box.the-team.advisors ul li {
     width: 25%;
     line-height: 20px;
   }
-  /* line 326, ../scss/goodlinks.scss */
+  /* line 329, ../scss/goodlinks.scss */
   section.box.the-team.advisors ul li p {
     font-size: 18px;
   }
 }
-/* line 334, ../scss/goodlinks.scss */
+/* line 337, ../scss/goodlinks.scss */
 section.what-people-are-saying {
   overflow: hidden;
 }
-/* line 337, ../scss/goodlinks.scss */
+/* line 340, ../scss/goodlinks.scss */
 section.what-people-are-saying .tweet {
   max-width: 10em;
   max-width: 24em;
@@ -325,54 +327,54 @@ section.what-people-are-saying .tweet {
   margin: 1.5em;
 }
 
-/* line 346, ../scss/goodlinks.scss */
+/* line 349, ../scss/goodlinks.scss */
 section.how-it-works .steps {
   margin-top: 2em;
 }
-/* line 349, ../scss/goodlinks.scss */
+/* line 352, ../scss/goodlinks.scss */
 section.how-it-works .steps .step {
   overflow: hidden;
 }
-/* line 352, ../scss/goodlinks.scss */
+/* line 355, ../scss/goodlinks.scss */
 section.how-it-works .steps .step .step-image {
   padding: 1em;
   float: left;
 }
-/* line 356, ../scss/goodlinks.scss */
+/* line 359, ../scss/goodlinks.scss */
 section.how-it-works .steps .step .step-image img {
   width: 100%;
 }
-/* line 361, ../scss/goodlinks.scss */
+/* line 364, ../scss/goodlinks.scss */
 section.how-it-works .steps .step .step-description {
   padding: 1em;
   text-align: left;
   float: left;
 }
-/* line 366, ../scss/goodlinks.scss */
+/* line 369, ../scss/goodlinks.scss */
 section.how-it-works .steps .step .step-description h3 {
   margin: 0;
 }
-/* line 370, ../scss/goodlinks.scss */
+/* line 373, ../scss/goodlinks.scss */
 section.how-it-works .steps .step .step-description p {
   padding: 0;
   font-size: 1.3em;
 }
-/* line 377, ../scss/goodlinks.scss */
+/* line 380, ../scss/goodlinks.scss */
 section.how-it-works .steps hr {
   border-bottom: solid 2px #F9F9F9;
   margin: 2em 3em;
 }
 
 @media screen and (min-width: 640px) {
-  /* line 386, ../scss/goodlinks.scss */
+  /* line 389, ../scss/goodlinks.scss */
   .steps .step {
     position: relative;
   }
-  /* line 388, ../scss/goodlinks.scss */
+  /* line 391, ../scss/goodlinks.scss */
   .steps .step .step-image {
     width: 50%;
   }
-  /* line 392, ../scss/goodlinks.scss */
+  /* line 395, ../scss/goodlinks.scss */
   .steps .step .step-description {
     width: 50%;
     position: absolute;
