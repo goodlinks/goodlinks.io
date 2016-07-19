@@ -61,6 +61,7 @@
 						<li><a href="http://podcast.goodlinks.io">Podcast</a></li>
 						<li><a href="#mission">The Mission</a></li>
 						<li><a href="#pricing">Pricing</a></li>
+						<li><a href="tel:(866) 551 - 2370">(866) 551 - 2370</a></li>
 						<li><a href="#signup">Sign Up</a></li>
 					</ul>
 				</nav>
@@ -198,7 +199,7 @@
 							<p>
 								The links that we get for you are quality and relevant.
 								Period.
-								(<a href="http://docs.goodlinks.io/article/367-what-is-the-minimum-threshold-for-quality-links" target="_blank">how is quality determined</a>)
+								(<a href="http://docs.goodlinks.io/article/44-what-is-the-minimum-threshold-for-quality-links" target="_blank">how is quality determined</a>)
 							</p>
 						</section>
 						<section>
@@ -325,16 +326,14 @@
 						<h2>Pricing</h2>
 						<!-- todo: this shouldn't be inside <header> -->
 						<p>
-							We like pricing models that are simple and profitable for both of us.
 							We have packages starting at:
 						</p>
 						<p>
-							<strong><u>$1k / Month for 5 Outreach Conversions</u></strong>
+							<strong><u>$1k / Month for 300 Outreach Communications</u></strong>
 						</p>
 						<p>
-							An outreach conversion can be several things - a link that was placed or
-							agreed to be placed, a referral to a customer, or an introduction to a
-							potential customer or partner.
+							An outreach communication (<a target="_blank" href="http://docs.goodlinks.io/article/33-how-is-the-communication-count-calculated">more info</a>) can be several things - an email, a blog comment, a
+							tweet, or a phone call.
 						</p>
 						<p>
 							You can request a full refund at any time if you're not happy and it's all month
@@ -349,13 +348,6 @@
 					</header>
 					<div class="box-inner">
 						<ul>
-							<li>
-								<img src="/image/jessica-durdin-ruhl.png">
-								<p>
-									<b>Jessica Durdin-Ruhl</b> is a Corporate Executive Assistant turned Virtual Assistant based out of Las Vegas.
-									<br/><a href="https://twitter.com/JordanGoodLinks" target="_blank"><i class="fa fa-twitter"></i></a>
-								</p>
-							</li>
 							<li>
 								<img src="/image/jordan-donaldson-goodlinks.jpg">
 								<p>
@@ -388,6 +380,13 @@
 									<b>Pam Cromwell</b> is an outreach specialist based out of New Jersey and the founder of
 									<a href="http://pinkforpam.org/" target="_blank">PinkforPam</a> and
 									<a href="http://www.virtual-pow.com/" target="_blank">VirtualPOW</a>.
+									<br/><a href="https://twitter.com/JordanGoodLinks" target="_blank"><i class="fa fa-twitter"></i></a>
+								</p>
+							</li>
+							<li>
+								<img src="/image/steve-nam-goodlinks.jpg">
+								<p>
+									<b>Steve Nam</b> is the co-founder and marketing director for Goodlinks, and a dude who loves family.
 									<br/><a href="https://twitter.com/JordanGoodLinks" target="_blank"><i class="fa fa-twitter"></i></a>
 								</p>
 							</li>
@@ -529,7 +528,7 @@
 				<center>
 					<script src="https://checkout.stripe.com/checkout.js"></script>
 
-					<a href="javascript://" id="customButton" class="button special">Get Started</a>
+					<a href="javascript://" id="customButton" class="button special"><?php echo (isset($_GET['customer_id']) ? "Update Your Card" : "Get Started"); ?></a>
 				</center>
 
 			</section>
@@ -572,7 +571,12 @@
 					// image: '/img/documentation/checkout/marketplace.png',
 					locale: 'auto',
 					token: function(token) {
-						window.location='https://magemail.co/app/goodlinks-charge.php?token=' + token.id + '&email=' + token.email
+						var url = 'https://magemail.co/app/goodlinks-charge.php?token=' + token.id + '&email=' + token.email;
+						<?php if (isset($_GET['customer_id'])): ?>
+							url += "&customer_id=<?php echo $_GET['customer_id']; ?>";
+						<?php endif; ?>
+
+						window.location=url;
 					}
 				});
 
@@ -580,7 +584,7 @@
 					// Open Checkout with further options
 					handler.open({
 						name: 'Goodlinks',
-						description: '5 Conversions / Month for $1k',
+						description: '300 Communications / Month for $1k',
 						amount: 0,
 						panelLabel: 'Subscribe'
 					});
@@ -606,7 +610,7 @@
 			setTimeout(function() { resizeVideoOverlay(); }, 10000);
 		</script>
 
-		<script>!function(e,o,n){window.HSCW=o,window.HS=n,n.beacon=n.beacon||{};var t=n.beacon;t.userConfig={},t.readyQueue=[],t.config=function(e){this.userConfig=e},t.ready=function(e){this.readyQueue.push(e)},o.config={docs:{enabled:!0,baseUrl:"//goodlinks.helpscoutdocs.com/"},contact:{enabled:!0,formId:"3553abc0-c1c4-11e5-9e75-0a7d6919297d"}};var r=e.getElementsByTagName("script")[0],c=e.createElement("script");c.type="text/javascript",c.async=!0,c.src="https://djtflbt20bdde.cloudfront.net/",r.parentNode.insertBefore(c,r)}(document,window.HSCW||{},window.HS||{});</script>
+		<script>!function(e,o,n){window.HSCW=o,window.HS=n,n.beacon=n.beacon||{};var t=n.beacon;t.userConfig={},t.readyQueue=[],t.config=function(e){this.userConfig=e},t.ready=function(e){this.readyQueue.push(e)},o.config={docs:{enabled:!0,baseUrl:"//goodlinksio.helpscoutdocs.com/"},contact:{enabled:!0,formId:"75b9ae03-4aae-11e6-aae8-0a7d6919297d"}};var r=e.getElementsByTagName("script")[0],c=e.createElement("script");c.type="text/javascript",c.async=!0,c.src="https://djtflbt20bdde.cloudfront.net/",r.parentNode.insertBefore(c,r)}(document,window.HSCW||{},window.HS||{});</script>
 		<script>
 			HS.beacon.config({
 				color: '#2ECC71',
