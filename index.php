@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Goodlinks - The Digital Outreach Service</title>
+		<title>Goodlinks - The Content Outreach Service</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -100,7 +100,7 @@
 						</g>
 					</g>
 				</svg>
-				<h1 class="headline">Accelerate <u>Growth</u> with <i>Personalized Digital Outreach</i></h1>
+				<h1 class="headline"><u>Accelerate Your Growth</u> With A New Kind Of Content Outreach Service</h1>
 			</section>
 
 			<!-- Main -->
@@ -108,7 +108,7 @@
 
 				<section class="box special lets-face-it">
 					<header class="major">
-						<h2>Let's face it &mdash; you could use<br>some help with digital outreach</h2>
+						<h2>Let's face it &mdash; you could use<br>some help with content outreach</h2>
 						<p>
 							Whether you're a startup founder, an eCommerce business owner, or a marketing
 							agency, you know by now that content marketing is one of the most powerful
@@ -380,14 +380,14 @@
 									<b>Pam Cromwell</b> is an outreach specialist based out of New Jersey and the founder of
 									<a href="http://pinkforpam.org/" target="_blank">PinkforPam</a> and
 									<a href="http://www.virtual-pow.com/" target="_blank">VirtualPOW</a>.
-									<br/><a href="https://twitter.com/JordanGoodLinks" target="_blank"><i class="fa fa-twitter"></i></a>
+									<br/><a href="https://twitter.com/pam_goodlinks" target="_blank"><i class="fa fa-twitter"></i></a>
 								</p>
 							</li>
 							<li>
 								<img src="/image/steve-nam-goodlinks.jpg">
 								<p>
 									<b>Steve Nam</b> is the co-founder and marketing director for Goodlinks, and a dude who loves family.
-									<br/><a href="https://twitter.com/JordanGoodLinks" target="_blank"><i class="fa fa-twitter"></i></a>
+									<br/><a href="https://twitter.com/SteveGoodlinks" target="_blank"><i class="fa fa-twitter"></i></a>
 								</p>
 							</li>
 						</ul>
@@ -471,7 +471,7 @@
 							for local Nigerians.
 						</p>
 						<p>
-							We plan to do the same in the digital outreach space.
+							We plan to do the same in the content outreach space.
 						</p>
 					</div>
 					<span class="image featured">
