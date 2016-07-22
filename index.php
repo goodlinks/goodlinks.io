@@ -384,6 +384,13 @@
 								</p>
 							</li>
 							<li>
+								<img src="/image/nicole-zelinski-goodlinks.png">
+								<p>
+									<b>Nicole Zelinka</b> is an outreach specialist and freelancer for early stage startups, and is based Puerto Vallarta Mexico.
+									<br/><a href="https://twitter.com/nz_goodlinks" target="_blank"><i class="fa fa-twitter"></i></a>
+								</p>
+							</li>
+							<li>
 								<img src="/image/steve-nam-goodlinks.jpg">
 								<p>
 									<b>Steve Nam</b> is the co-founder and marketing director for Goodlinks, and a dude who loves family.
