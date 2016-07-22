@@ -526,11 +526,13 @@
 					suggestions.
 				</p>
 
+				<!--
 				<p style="font-weight: bold;">
 					We're currently at capacity!
 					Next availability is June 11.
 					Put a credit card on file to be next in line!
 				</p>
+				-->
 
 				<center>
 					<script src="https://checkout.stripe.com/checkout.js"></script>
