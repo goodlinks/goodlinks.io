@@ -100,7 +100,7 @@
 						</g>
 					</g>
 				</svg>
-				<h1 class="headline"><u>Accelerate Your Growth</u> With A New Kind Of Content Outreach Service</h1>
+				<h1 class="headline">Reach Influencers.  Get Links.  <u>Accelerate Growth.</u></h1>
 			</section>
 
 			<!-- Main -->
@@ -349,14 +349,6 @@
 					<div class="box-inner">
 						<ul>
 							<li>
-								<img src="/image/jordan-donaldson-goodlinks.jpg">
-								<p>
-									<b>Jordan Donaldson</b> is an outreach specialist and eCommerce entrepeneur based out
-									of New York City.
-									<br/><a href="https://twitter.com/JordanGoodLinks" target="_blank"><i class="fa fa-twitter"></i></a>
-								</p>
-							</li>
-							<li>
 								<img src="/image/kalen-jordan-goodlinks.jpg">
 								<p>
 									<b>Kalen Jordan</b>  is the founder of
@@ -372,22 +364,6 @@
 									<b>Katie Dillman</b> is an outreach specialist and founder of
 									<a href="http://makeourday.org/" target="_blank">Make Our Day</a> based out of Phuket, Thailand.
 									<br/><a href="https://twitter.com/katie_goodlinks" target="_blank"><i class="fa fa-twitter"></i></a>
-								</p>
-							</li>
-							<li>
-								<img src="/image/pamela-cromwell-goodlinks.jpg">
-								<p>
-									<b>Pam Cromwell</b> is an outreach specialist based out of New Jersey and the founder of
-									<a href="http://pinkforpam.org/" target="_blank">PinkforPam</a> and
-									<a href="http://www.virtual-pow.com/" target="_blank">VirtualPOW</a>.
-									<br/><a href="https://twitter.com/pam_goodlinks" target="_blank"><i class="fa fa-twitter"></i></a>
-								</p>
-							</li>
-							<li>
-								<img src="/image/nicole-zelinski-goodlinks.png">
-								<p>
-									<b>Nicole Zelinka</b> is an outreach specialist and freelancer for early stage startups, and is based Puerto Vallarta Mexico.
-									<br/><a href="https://twitter.com/nz_goodlinks" target="_blank"><i class="fa fa-twitter"></i></a>
 								</p>
 							</li>
 							<li>
