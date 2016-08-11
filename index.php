@@ -693,15 +693,12 @@
 			setTimeout(function() { resizeVideoOverlay(); }, 10000);
 		</script>
 
-		<script>!function(e,o,n){window.HSCW=o,window.HS=n,n.beacon=n.beacon||{};var t=n.beacon;t.userConfig={},t.readyQueue=[],t.config=function(e){this.userConfig=e},t.ready=function(e){this.readyQueue.push(e)},o.config={docs:{enabled:!0,baseUrl:"//goodlinksio.helpscoutdocs.com/"},contact:{enabled:!0,formId:"75b9ae03-4aae-11e6-aae8-0a7d6919297d"}};var r=e.getElementsByTagName("script")[0],c=e.createElement("script");c.type="text/javascript",c.async=!0,c.src="https://djtflbt20bdde.cloudfront.net/",r.parentNode.insertBefore(c,r)}(document,window.HSCW||{},window.HS||{});</script>
 		<script>
-			HS.beacon.config({
-				color: '#2ECC71',
-				icon: 'message',
-				topArticles: true,
-				instructions:'This is instructional text that goes above the form.'
-			});
+			window.intercomSettings = {
+				app_id: "yfh7b60l"
+			};
 		</script>
+		<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/yfh7b60l';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
 
 		<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
