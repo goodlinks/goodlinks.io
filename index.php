@@ -320,6 +320,7 @@
 					</header>
 				</section>
 
+				<a name="pricing"></a>
 				<div class="pricing-container">
 					<ul class="pricing-list bounce-invert">
 						<li class="first">
