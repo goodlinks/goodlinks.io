@@ -100,7 +100,7 @@
 						</g>
 					</g>
 				</svg>
-				<h1 class="headline">Reach Influencers.  Get Links.  <u>Accelerate Growth.</u></h1>
+				<h1 class="headline">Reach Influencers.  Get Links.  <br/><u>Accelerate Growth.</u></h1>
 			</section>
 
 			<!-- Main -->
@@ -320,27 +320,92 @@
 					</header>
 				</section>
 
-				<section class="box special pricing">
-					<header class="major">
-						<a name="pricing"></a>
-						<h2>Pricing</h2>
-						<!-- todo: this shouldn't be inside <header> -->
-						<p>
-							We have packages starting at:
-						</p>
-						<p>
-							<strong><u>$1k / Month for 300 Outreach Communications</u></strong>
-						</p>
-						<p>
-							An outreach communication (<a target="_blank" href="http://docs.goodlinks.io/article/33-how-is-the-communication-count-calculated">more info</a>) can be several things - an email, a blog comment, a
-							tweet, or a phone call.
-						</p>
-						<p>
-							You can request a full refund at any time if you're not happy and it's all month
-							to month - long term contracts are for the birds.
-						</p>
-					</header>
-				</section>
+				<div class="pricing-container">
+					<ul class="pricing-list bounce-invert">
+						<li class="first">
+							<ul class="pricing-wrapper">
+								<li data-type="monthly">
+									<header class="pricing-header">
+										<h2>Good</h2>
+										<div class="price">
+											<span class="currency">$</span>
+											<span class="value">1250</span>
+											<span class="duration">mo</span>
+										</div>
+									</header>
+									<div class="pricing-body">
+										<ul class="pricing-features">
+											<li><em>300</em> Outreach Communications</li>
+											<li><em>1</em> Custom Content Strategy</li>
+											<li>Personalized Pitch Formation</li>
+											<li>Audience Research & Analysis</li>
+											<li>Live Activity Monitoring</li>
+											<li>Email/Phone Support</li>
+										</ul>
+									</div>
+									<footer class="pricing-footer">
+										<a class="select sign-up plan-1250" href="javascript://">Sign Up</a>
+									</footer>
+								</li>
+							</ul>
+						</li>
+						<li class="">
+							<ul class="pricing-wrapper">
+								<li data-type="monthly" >
+									<header class="pricing-header">
+										<h2>Better</h2>
+										<div class="price">
+											<span class="currency">$</span>
+											<span class="value">2400</span>
+											<span class="duration">mo</span>
+										</div>
+									</header>
+									<div class="pricing-body">
+										<ul class="pricing-features">
+											<li><em>600</em> Outreach Communications</li>
+											<li><em>2</em> Custom Content Strategies</li>
+											<li>Personalized Pitch Formation</li>
+											<li>Audience Research & Analysis</li>
+											<li>Live Activity Monitoring</li>
+											<li>Email/Phone Support</li>
+										</ul>
+									</div>
+									<footer class="pricing-footer">
+										<a class="select sign-up plan-2400" href="javascript://">Sign Up</a>
+									</footer>
+								</li>
+							</ul>
+						</li>
+						<li class="last exclusive">
+							<ul class="pricing-wrapper">
+								<li data-type="monthly">
+									<header class="pricing-header">
+										<h2>Amazing</h2>
+										<div class="price">
+											<span class="currency">$</span>
+											<span class="value">3500</span>
+											<span class="duration">mo</span>
+										</div>
+									</header>
+									<div class="pricing-body">
+										<ul class="pricing-features">
+											<li class="best-value">Best Value!</li>
+											<li><em>900</em> Outreach Communications</li>
+											<li><em>3</em> Custom Content Strategies</li>
+											<li>Personalized Pitch Formation</li>
+											<li>Audience Research & Analysis</li>
+											<li>Live Activity Monitoring</li>
+											<li>Email/Phone Support</li>
+										</ul>
+									</div>
+									<footer class="pricing-footer">
+										<a class="select sign-up plan-3500" href="javascript://">Sign Up</a>
+									</footer>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
 
 				<section class="box the-team">
 					<header class="major">
@@ -569,7 +634,40 @@
 					// Open Checkout with further options
 					handler.open({
 						name: 'Goodlinks',
-						description: '300 Communications / Month for $1k',
+						description: '300 Communications / Month for $1250',
+						amount: 0,
+						panelLabel: 'Subscribe'
+					});
+					e.preventDefault();
+				});
+
+				jQuery('.sign-up.plan-1250').on('click', function(e) {
+					// Open Checkout with further options
+					handler.open({
+						name: 'Goodlinks',
+						description: '300 Communications / Month',
+						amount: 0,
+						panelLabel: 'Subscribe'
+					});
+					e.preventDefault();
+				});
+
+				jQuery('.sign-up.plan-2400').on('click', function(e) {
+					// Open Checkout with further options
+					handler.open({
+						name: 'Goodlinks',
+						description: '600 Communications / Month',
+						amount: 0,
+						panelLabel: 'Subscribe'
+					});
+					e.preventDefault();
+				});
+
+				jQuery('.sign-up.plan-3500').on('click', function(e) {
+					// Open Checkout with further options
+					handler.open({
+						name: 'Goodlinks',
+						description: '900 Communications / Month',
 						amount: 0,
 						panelLabel: 'Subscribe'
 					});
