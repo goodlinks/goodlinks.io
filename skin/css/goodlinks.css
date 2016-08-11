@@ -166,13 +166,13 @@ a {
 }
 
 /* line 175, ../scss/goodlinks.scss */
-.button {
+.button, .button.special {
   transition: all 0.2s ease-in-out;
   font-size: 1.5em;
   color: #2ECC71 !important;
 }
 /* line 179, ../scss/goodlinks.scss */
-.button:hover {
+.button:hover, .button.special:hover {
   font-weight: bold;
   padding-left: 2.5em;
   padding-right: 2.5em;

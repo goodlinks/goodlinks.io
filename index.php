@@ -108,7 +108,7 @@
 
 				<section class="box special lets-face-it">
 					<header class="major">
-						<h2>Let's face it &mdash; you could use<br>some help with content outreach</h2>
+						<h2>Let's face it &mdash; you could use <br>some help with content outreach</h2>
 						<p>
 							Whether you're a startup founder, an eCommerce business owner, or a marketing
 							agency, you know by now that content marketing is one of the most powerful
