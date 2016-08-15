@@ -249,6 +249,39 @@ section.box.pricing {
     }
 }
 
+section.box.pricing-faqs {
+    .box-inner {
+        overflow: hidden;
+    }
+
+    ul {
+        font-size: 1em;  /* Otherwise the p, ul 1.3em will get double added */
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+        li {
+            p.question {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 940px) {
+    section.box.pricing-faqs {
+        ul {
+            li {
+                padding: 1em;
+                width: 50%;
+                float: left;
+            }
+        }
+    }
+}
+
+
 section.box.the-team {
     .box-inner {
         margin-top: 2em;

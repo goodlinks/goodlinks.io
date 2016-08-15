@@ -408,6 +408,77 @@
 					</ul>
 				</div>
 
+				<section class="box pricing-faqs">
+					<header class="major">
+						<h2>Frequently Asked Questions</h2>
+					</header>
+					<div class="box-inner">
+						<ul>
+							<li>
+								<p class="question">
+									What can Goodlinks help me acccomplish?
+								</p>
+								<p class="answer">
+									What we really do is influencer outreach - that means we help you reach out to influential people in your niche so that you can get in front of their audience. The result is that they link to you from their website and/or share you with their audience.
+								</p>
+							</li>
+							<li>
+								<p class="question">
+									How does this fit into my marketing mix?
+								</p>
+								<p class="answer">
+									We specialize in connecting you to the right kind of influencers, either in your industry, with direct referrals/sales and partnerships, or in an adjacent industry, with high authority sites that will build your organic link profile and search engine rankings.
+								</p>
+							</li>
+							<li>
+								<p class="question">
+									What if it doesn't work as expected?
+								</p>
+								<p class="answer">
+									The risk is totally on us - if you try Goodlinks for 30 days and still don't
+									feel like things are working out, no problem - just ask us for a refund.
+									We'll make sure this is one of the best marketing investments you've made
+									for your business.
+								</p>
+							</li>
+							<li>
+								<p class="question">
+									How long will it take to see results?
+								</p>
+								<p class="answer">
+									In terms of search engine rankings, you want to wait 3 to 6 months to begin to see some movement based on the links that are being built.
+
+									However, we actually like for customers to see
+									<a target="_blank" href="http://docs.goodlinks.io/article/87-how-long-does-influencer-marketing-take">positive signals</a> much sooner than that.
+								</p>
+							</li>
+							<li>
+								<p class="question">
+									What kind of reporting will I get?
+								</p>
+								<p class="answer">
+									We have an integration directly with our CRM which happens to be an open source
+									project. You have
+									<a target="_blank" href="http://docs.goodlinks.io/article/88-what-type-of-reporting-do-you-get-with-goodlinks">full access</a> to monitor all activity - both inbound and
+									outbound communications (email, tweets, blog comments, phone call notes),
+									past and present.
+								</p>
+							</li>
+							<li>
+								<p class="question">
+									Is there a free trial?
+								</p>
+								<p class="answer">
+									No, we don't offer a free trial.  Because we have a paid team member assigned from
+									day 1, it's not really possible to offer a fully free trial.  However, there is a
+									risk-free trial in the sense that you can request a refund for the current month
+									at any time.
+								</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+
 				<section class="box the-team">
 					<header class="major">
 						<h2>The Team</h2>
