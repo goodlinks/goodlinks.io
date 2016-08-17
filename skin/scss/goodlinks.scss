@@ -439,6 +439,8 @@ section.how-it-works {
 .pricing-container {
     margin-top: 4.5em;
     margin-bottom: 1em;
+    margin-left: -3em;
+    margin-right: -3em;
 
     div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -740,7 +742,7 @@ section.how-it-works {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-        font-size: 22px;
+        font-size: 18px;
         line-height: 1em;
 
         &.best-value {
@@ -799,7 +801,7 @@ section.how-it-works {
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1014px) {
     .pricing-list {
         margin: 3em 0 0;
     }
@@ -809,7 +811,7 @@ section.how-it-works {
         clear: both;
     }
     .pricing-list > li {
-        width: 33.3333333333%;
+        width: 25%;
         float: left;
     }
     .has-margins .pricing-list > li {
@@ -822,7 +824,7 @@ section.how-it-works {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1014px) {
     .pricing-wrapper > li::before {
         content: '';
         position: absolute;
@@ -842,7 +844,7 @@ section.how-it-works {
         display: none;
     }
     .exclusive .pricing-wrapper > li {
-        box-shadow: inset 0 0 0 10px #ececec;
+        border: solid 4px #e2e2e2;
         padding: 26px 0px;
         margin-top: -48px;
     }
@@ -875,7 +877,7 @@ section.how-it-works {
     }
 }
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 1014px) {
     .pricing-container {
         margin: 1em;
         overflow-x: hidden;
