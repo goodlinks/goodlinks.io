@@ -7,6 +7,9 @@
 {{#post}}
 
 <header class="main-header post-head {{#if image}}" style="background-image: url({{image}}){{else}}no-cover{{/if}}">
+    {{#if image}}
+        <h1 style="margin-top: 4em; color: white; padding-bottom: 1em; text-shadow: 2px 2px #000000;" class="post-title">{{title}}</h1>
+    {{/if}}
     <nav class="main-nav {{#if image}}overlay{{/if}} clearfix">
         {{#if image}}
             {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img style="width: 41px;" src="http://goodlinks.io/image/goodlinks-logo-post-detail-with-background.svg" alt="{{@blog.title}}" /></a>{{/if}}
@@ -23,7 +26,10 @@
     <article class="{{post_class}}">
 
         <header class="post-header">
-            <h1 class="post-title">{{title}}</h1>
+            {{#if image}}
+            {{else}}
+                <h1 class="post-title">{{title}}</h1>
+            {{/if}}
             <section class="post-meta">
                 <time class="post-date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> {{tags prefix=" on "}}
             </section>

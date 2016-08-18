@@ -108,7 +108,11 @@
 
 				<section class="box special lets-face-it">
 					<header class="major">
-						<h2>Let's face it &mdash; you could use <br>some help with content outreach</h2>
+						<h2>Let's Face It: <br> You Could Use Some Help Getting In Front Of The&nbsp;Right&nbsp;Audience</h2>
+
+						<br><br>
+						<iframe style="width: 100%;" width="853" height="480" src="https://www.youtube.com/embed/6o0iTPm5YW4" frameborder="0" allowfullscreen></iframe>
+
 						<p>
 							Whether you're a startup founder, an eCommerce business owner, or a marketing
 							agency, you know by now that content marketing is one of the most powerful
