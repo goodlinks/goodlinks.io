@@ -74,6 +74,7 @@
 			<div class="video-overlay"></div>
 			<img class="hero-image-for-mobile" style="display: none;" src="/image/people-working-together.png">
 			<section id="banner">
+				<div class="svg-wrapper">
 				<svg class="mobile-logo" width="571px" height="139px" viewBox="0 0 571 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
 					<title>logo-white</title>
 					<desc>Created with Sketch.</desc>
@@ -100,6 +101,7 @@
 						</g>
 					</g>
 				</svg>
+				</div>
 				<h1 class="headline">Reach Influencers.  Get Links.  <br/><u>Accelerate Growth.</u></h1>
 			</section>
 
@@ -713,6 +715,8 @@
 				var height = $('video').height();
 				$('.video-overlay').css('width', width)
 						.css('height', height);
+				$('#banner').css('height', height);
+				$('#banner .svg-wrapper').css('height', height);
 				console.log(width);
 			}
 

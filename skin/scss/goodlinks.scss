@@ -101,6 +101,17 @@ a {
     top: 0;
     width: 100%;
     color: white;
+    padding: 0;
+
+    .svg-wrapper {
+        position: relative;
+            svg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
 
     h1 {
         display: inline-block;
