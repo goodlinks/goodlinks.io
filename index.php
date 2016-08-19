@@ -110,9 +110,7 @@
 					<header class="major">
 						<h2>Let's Face It: <br> You Could Use Some Help Getting In Front Of The&nbsp;Right&nbsp;Audience</h2>
 
-						<br><br>
-						<iframe style="width: 100%;" width="853" height="480" src="https://www.youtube.com/embed/6o0iTPm5YW4" frameborder="0" allowfullscreen></iframe>
-
+						<script src="//fast.wistia.com/embed/medias/vbum6qq5qs.jsonp" async></script><script src="//fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_vbum6qq5qs videoFoam=true" style="height:100%;width:100%">&nbsp;</div></div></div>
 						<p>
 							Whether you're a startup founder, an eCommerce business owner, or a marketing
 							agency, you know by now that content marketing is one of the most powerful

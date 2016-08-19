@@ -149,6 +149,9 @@ a {
         width: 100%;
         display: inline !important;
     }
+    .box.lets-face-it {
+        padding-top: 1em !important;
+    }
 }
 
 #cta {
@@ -190,6 +193,9 @@ a {
 }
 
 section.lets-face-it {
+    .wistia_responsive_padding {
+        margin-top: 2em;
+    }
     p {
         text-align: left;
     }
@@ -886,5 +892,11 @@ section.how-it-works {
             padding-left: 0;
             padding-right: 0;
         }
+    }
+}
+
+@media screen and (max-width: 840px) {
+    #navButton .toggle:before {
+        background: rgba(134, 134, 134, 0.5);
     }
 }
