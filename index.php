@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Goodlinks - The Content Outreach Service</title>
+		<title>Goodlinks - The Influencer Outreach Service</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -101,7 +101,10 @@
 							</g>
 						</g>
 					</svg>
-					<h1 class="headline">Reach Influencers.  Get Links.  <br/><u>Accelerate Growth.</u></h1>
+					<h1 class="headline">
+						Looking To Connect With Influencers?
+						<br/><span style="font-weight: bold;">We Send Them <u>Straight To Your Inbox.</u></span>
+					</h1>
 				</div>
 			</section>
 
@@ -183,9 +186,8 @@
 							<span class="icon major fa-eye accent2"></span>
 							<h3>Fully Transparent</h3>
 							<p>
-								All of our outreach activities are fully transparent to you.  We're putting
-								an end to the gray-hat practices of the last decade.  This is outreach
-								that you'll be proud of.
+								All of our outreach activities are fully transparent to you.  You can monitor
+								all of the emails, tweets, and blog comments we're producing in real time.
 							</p>
 						</section>
 						<section>
@@ -193,6 +195,7 @@
 							<h3>Risk-Free</h3>
 							<p>
 								Pricing is month-to-month and you can request a refund at any time for any reason.
+								Your satisfaction is guaranteed.
 							</p>
 						</section>
 					</div>
@@ -201,16 +204,15 @@
 							<span class="icon major fa-check accent4"></span>
 							<h3>Quality</h3>
 							<p>
-								The links that we get for you are quality and relevant.
-								Period.
-								(<a href="http://docs.goodlinks.io/article/44-what-is-the-minimum-threshold-for-quality-links" target="_blank">how is quality determined</a>)
+								All of our communication is highly personalized and handled by native English speakers.
+								We're putting an end to the gray-hat practices of the last decade. This is outreach that you'll be proud of.
 							</p>
 						</section>
 						<section>
 							<span class="icon major fa-smile-o accent5"></span>
 							<h3>Good</h3>
 							<p>
-								We have a mission here at Goodlinks to create good jobs for the unemployed.
+								We have a mission here at Goodlinks to combat unemployment.
 								As a customer, you'll be helping us make the world a better place, one
 								link at a time.
 							</p>
@@ -301,9 +303,8 @@
 									<h3>4. Watch the Outreach</h3>
 									<p>
 										You'll be able to keep a pulse on all the outreach that's happening
-										through the BuzzStream feed integration with our CRM.  We will notify you
-										of any accepted guest posting opportunities.  (We also offer writing services
-										if you'd prefer not to do the writing yourself)
+										through the BuzzStream feed integration with our CRM.  When we get a warm
+										lead from an influencer, we'll send them right to your inbox.
 									</p>
 								</div>
 							</div>
@@ -315,8 +316,9 @@
 								<div class="step-description">
 									<h3>5. See Results</h3>
 									<p>
-										See results in terms of increased sales and search engine traffic
-										within 3 to 6 months.
+										See results in terms of valuable relationships developed with influencers within
+										weeks, and increased referral sales and improved search engine
+										rankings within months.
 									</p>
 								</div>
 							</div>
@@ -450,15 +452,19 @@
 									What can Goodlinks help me acccomplish?
 								</p>
 								<p class="answer">
-									What we really do is influencer outreach - that means we help you reach out to influential people in your niche so that you can get in front of their audience. The result is that they link to you from their website and/or share you with their audience.
+									What we do is influencer outreach - that means we help you reach out to influential people in your niche so that you can get in front of their audience. The result is that they link to you from their website and/or share you with their audience.
 								</p>
 							</li>
 							<li>
 								<p class="question">
-									How does this fit into my marketing mix?
+									Does Goodlinks produce content for us?
 								</p>
 								<p class="answer">
-									We specialize in connecting you to the right kind of influencers, either in your industry, with direct referrals/sales and partnerships, or in an adjacent industry, with high authority sites that will build your organic link profile and search engine rankings.
+									No, we don't get involved in the content creation process.
+									We recommend <a href="https://bunnyinc.com/article" target="_blank">Article Bunny</a>
+									and <a href="http://audienceops.com/" target="_blank">Audience Ops</a> for content
+									- by specializing deeply in personalized outreach we're able to better serve
+									you be getting the highest quality influencer introductions straight to your inbox.
 								</p>
 							</li>
 							<li>
@@ -531,6 +537,13 @@
 								<p>
 									<b>Katie Dillman</b> is an outreach specialist and founder of
 									<a href="http://makeourday.org/" target="_blank">Make Our Day</a> based out of Phuket, Thailand.
+									<br/><a href="https://twitter.com/mattgoodlinks" target="_blank"><i class="fa fa-twitter"></i></a>
+								</p>
+							</li>
+							<li>
+								<img src="/image/matthew-wilson-goodlinks.jpeg">
+								<p>
+									<b>Matthew Wilson</b> Communication Coordinator at Goodlinks. Fan of music, graphic design, cooking, and kissing my baby daughter :)
 									<br/><a href="https://twitter.com/katie_goodlinks" target="_blank"><i class="fa fa-twitter"></i></a>
 								</p>
 							</li>
