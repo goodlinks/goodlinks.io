@@ -333,7 +333,7 @@
 							<ul class="pricing-wrapper">
 								<li data-type="monthly">
 									<header class="pricing-header">
-										<h2>Playbook</h2>
+										<h2>Do-It-Yourself</h2>
 										<div class="price">
 											<span class="currency">$</span>
 											<span class="value">500</span>
@@ -342,7 +342,7 @@
 									<div class="pricing-body">
 										<ul class="pricing-features">
 											<li>One-Time Payment</li>
-											<li><em>25</em> Prospects</li>
+											<li><em>25</em> Targeted Prospects</li>
 											<li><em>1</em> Custom Content Strategy</li>
 											<li>Personalized Pitch Formation</li>
 											<li>Audience Research & Analysis</li>
@@ -369,7 +369,7 @@
 									<div class="pricing-body">
 										<ul class="pricing-features">
 											<li class="best-value">Most Popular!</li>
-											<li><em>70</em> Prospects</li>
+											<li><em>70</em> Targeted Prospects</li>
 											<li><em>300</em> Outreach Communications</li>
 											<li><em>1</em> Custom Content Strategy</li>
 											<li>Personalized Pitch Formation</li>
@@ -397,7 +397,7 @@
 									</header>
 									<div class="pricing-body">
 										<ul class="pricing-features">
-											<li><em>140</em> Prospects</li>
+											<li><em>140</em> Targeted Prospects</li>
 											<li><em>600</em> Outreach Communications</li>
 											<li><em>2</em> Custom Content Strategies</li>
 											<li>Personalized Pitch Formation</li>
@@ -425,7 +425,7 @@
 									</header>
 									<div class="pricing-body">
 										<ul class="pricing-features">
-											<li><em>210</em> Prospects</li>
+											<li><em>210</em> Targeted Prospects</li>
 											<li><em>900</em> Outreach Communications</li>
 											<li><em>3</em> Custom Content Strategies</li>
 											<li>Personalized Pitch Formation</li>
@@ -485,10 +485,9 @@
 									How long will it take to see results?
 								</p>
 								<p class="answer">
-									In terms of search engine rankings, you want to wait 3 to 6 months to begin to see some movement based on the links that are being built.
-
-									However, we actually like for customers to see
-									<a target="_blank" href="http://docs.goodlinks.io/article/87-how-long-does-influencer-marketing-take">positive signals</a> much sooner than that.
+									You should begin to get email replies from influencers sent to you within a week or two of the outreach
+									starting.  It may take you anywhere between a week or several weeks to get
+									placements up with them.
 								</p>
 							</li>
 							<li>
