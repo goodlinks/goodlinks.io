@@ -333,20 +333,19 @@
 							<ul class="pricing-wrapper">
 								<li data-type="monthly">
 									<header class="pricing-header">
-										<h2>Starter</h2>
+										<h2>Playbook</h2>
 										<div class="price">
 											<span class="currency">$</span>
 											<span class="value">500</span>
-											<span class="duration">mo</span>
 										</div>
 									</header>
 									<div class="pricing-body">
 										<ul class="pricing-features">
-											<li><em>100</em> Outreach Communications</li>
+											<li>One-Time Payment</li>
+											<li><em>25</em> Prospects</li>
 											<li><em>1</em> Custom Content Strategy</li>
 											<li>Personalized Pitch Formation</li>
 											<li>Audience Research & Analysis</li>
-											<li>Live Activity Monitoring</li>
 											<li>Email/Phone Support</li>
 										</ul>
 									</div>
@@ -370,6 +369,7 @@
 									<div class="pricing-body">
 										<ul class="pricing-features">
 											<li class="best-value">Most Popular!</li>
+											<li><em>70</em> Prospects</li>
 											<li><em>300</em> Outreach Communications</li>
 											<li><em>1</em> Custom Content Strategy</li>
 											<li>Personalized Pitch Formation</li>
@@ -397,6 +397,7 @@
 									</header>
 									<div class="pricing-body">
 										<ul class="pricing-features">
+											<li><em>140</em> Prospects</li>
 											<li><em>600</em> Outreach Communications</li>
 											<li><em>2</em> Custom Content Strategies</li>
 											<li>Personalized Pitch Formation</li>
@@ -424,6 +425,7 @@
 									</header>
 									<div class="pricing-body">
 										<ul class="pricing-features">
+											<li><em>210</em> Prospects</li>
 											<li><em>900</em> Outreach Communications</li>
 											<li><em>3</em> Custom Content Strategies</li>
 											<li>Personalized Pitch Formation</li>
