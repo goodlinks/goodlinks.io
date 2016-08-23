@@ -376,39 +376,39 @@ section.what-people-are-saying .tweet {
 }
 
 /* line 398, ../scss/goodlinks.scss */
-section.how-it-works .steps {
+section.how-it-works .steps, section.social-proof .steps {
   margin-top: 2em;
 }
 /* line 401, ../scss/goodlinks.scss */
-section.how-it-works .steps .step {
+section.how-it-works .steps .step, section.social-proof .steps .step {
   overflow: hidden;
 }
 /* line 404, ../scss/goodlinks.scss */
-section.how-it-works .steps .step .step-image {
+section.how-it-works .steps .step .step-image, section.social-proof .steps .step .step-image {
   padding: 1em;
   float: left;
 }
 /* line 408, ../scss/goodlinks.scss */
-section.how-it-works .steps .step .step-image img {
+section.how-it-works .steps .step .step-image img, section.social-proof .steps .step .step-image img {
   width: 100%;
 }
 /* line 413, ../scss/goodlinks.scss */
-section.how-it-works .steps .step .step-description {
+section.how-it-works .steps .step .step-description, section.social-proof .steps .step .step-description {
   padding: 1em;
   text-align: left;
   float: left;
 }
 /* line 418, ../scss/goodlinks.scss */
-section.how-it-works .steps .step .step-description h3 {
+section.how-it-works .steps .step .step-description h3, section.social-proof .steps .step .step-description h3 {
   margin: 0;
 }
 /* line 422, ../scss/goodlinks.scss */
-section.how-it-works .steps .step .step-description p {
+section.how-it-works .steps .step .step-description p, section.social-proof .steps .step .step-description p {
   padding: 0;
   font-size: 1.3em;
 }
 /* line 429, ../scss/goodlinks.scss */
-section.how-it-works .steps hr {
+section.how-it-works .steps hr, section.social-proof .steps hr {
   border-bottom: solid 2px #F9F9F9;
   margin: 2em 3em;
 }
@@ -431,8 +431,35 @@ section.how-it-works .steps hr {
     left: 50%;
   }
 }
+@media screen and (min-width: 640px) {
+  /* line 458, ../scss/goodlinks.scss */
+  section.social-proof .steps .step {
+    position: relative;
+  }
+  /* line 460, ../scss/goodlinks.scss */
+  section.social-proof .steps .step .step-image {
+    width: 30%;
+    float: left;
+  }
+  /* line 465, ../scss/goodlinks.scss */
+  section.social-proof .steps .step .step-description {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 30%;
+  }
+  /* line 475, ../scss/goodlinks.scss */
+  section.social-proof .steps .step.right .step-image {
+    float: right;
+  }
+  /* line 478, ../scss/goodlinks.scss */
+  section.social-proof .steps .step.right .step-description {
+    left: 0%;
+  }
+}
 /* Pricing */
-/* line 456, ../scss/goodlinks.scss */
+/* line 487, ../scss/goodlinks.scss */
 .pricing-container {
   margin-top: 4.5em;
   margin-bottom: 1em;
@@ -440,7 +467,7 @@ section.how-it-works .steps hr {
   margin-right: -3em;
   /* HTML5 display-role reset for older browsers */
 }
-/* line 474, ../scss/goodlinks.scss */
+/* line 505, ../scss/goodlinks.scss */
 .pricing-container div, .pricing-container span, .pricing-container applet, .pricing-container object, .pricing-container iframe,
 .pricing-container h1, .pricing-container h2, .pricing-container h3, .pricing-container h4, .pricing-container h5, .pricing-container h6, .pricing-container p, .pricing-container blockquote, .pricing-container pre,
 .pricing-container a, .pricing-container abbr, .pricing-container acronym, .pricing-container address, .pricing-container big, .pricing-container cite, .pricing-container code,
@@ -459,31 +486,31 @@ section.how-it-works .steps hr {
   border: 0;
   vertical-align: baseline;
 }
-/* line 482, ../scss/goodlinks.scss */
+/* line 513, ../scss/goodlinks.scss */
 .pricing-container article, .pricing-container aside, .pricing-container details, .pricing-container figcaption, .pricing-container figure,
 .pricing-container footer, .pricing-container header, .pricing-container hgroup, .pricing-container menu, .pricing-container nav, .pricing-container section, .pricing-container main {
   display: block;
 }
-/* line 485, ../scss/goodlinks.scss */
+/* line 516, ../scss/goodlinks.scss */
 .pricing-container ol, .pricing-container ul {
   list-style: none;
 }
-/* line 488, ../scss/goodlinks.scss */
+/* line 519, ../scss/goodlinks.scss */
 .pricing-container blockquote, .pricing-container q {
   quotes: none;
 }
-/* line 492, ../scss/goodlinks.scss */
+/* line 523, ../scss/goodlinks.scss */
 .pricing-container blockquote:before, .pricing-container blockquote:after,
 .pricing-container q:before, .pricing-container q:after {
   content: '';
   content: none;
 }
-/* line 496, ../scss/goodlinks.scss */
+/* line 527, ../scss/goodlinks.scss */
 .pricing-container table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* line 502, ../scss/goodlinks.scss */
+/* line 533, ../scss/goodlinks.scss */
 .pricing-container *,
 .pricing-container *::after,
 .pricing-container *::before {
@@ -491,61 +518,61 @@ section.how-it-works .steps hr {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 508, ../scss/goodlinks.scss */
+/* line 539, ../scss/goodlinks.scss */
 .pricing-container html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* line 513, ../scss/goodlinks.scss */
+/* line 544, ../scss/goodlinks.scss */
 .pricing-container a {
   text-decoration: none;
 }
-/* line 517, ../scss/goodlinks.scss */
+/* line 548, ../scss/goodlinks.scss */
 .pricing-container .pricing-container {
   line-height: 1;
   width: 90%;
   max-width: 1170px;
   margin: 4em auto;
 }
-/* line 524, ../scss/goodlinks.scss */
+/* line 555, ../scss/goodlinks.scss */
 .pricing-container .pricing-container {
   margin: 6em auto;
 }
-/* line 527, ../scss/goodlinks.scss */
+/* line 558, ../scss/goodlinks.scss */
 .pricing-container .pricing-container.full-width {
   width: 100%;
   max-width: none;
 }
-/* line 532, ../scss/goodlinks.scss */
+/* line 563, ../scss/goodlinks.scss */
 .pricing-container .pricing-list {
   margin: 2em 0 0;
 }
-/* line 536, ../scss/goodlinks.scss */
+/* line 567, ../scss/goodlinks.scss */
 .pricing-container .pricing-list > li {
   position: relative;
   margin-bottom: 1em;
   padding-left: 5px;
   padding-right: 5px;
 }
-/* line 542, ../scss/goodlinks.scss */
+/* line 573, ../scss/goodlinks.scss */
 .pricing-container .pricing-list > li.first {
   padding-left: 0;
 }
-/* line 545, ../scss/goodlinks.scss */
+/* line 576, ../scss/goodlinks.scss */
 .pricing-container .pricing-list > li.last {
   padding-right: 0;
 }
-/* line 550, ../scss/goodlinks.scss */
+/* line 581, ../scss/goodlinks.scss */
 .pricing-container .pricing-wrapper {
   position: relative;
 }
-/* line 554, ../scss/goodlinks.scss */
+/* line 585, ../scss/goodlinks.scss */
 .pricing-container .touch .pricing-wrapper {
   -webkit-perspective: 2000px;
   -moz-perspective: 2000px;
   perspective: 2000px;
 }
-/* line 560, ../scss/goodlinks.scss */
+/* line 591, ../scss/goodlinks.scss */
 .pricing-container .pricing-wrapper.is-switched .is-visible {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -556,7 +583,7 @@ section.how-it-works .steps hr {
   -moz-animation: rotate 0.5s;
   animation: rotate 0.5s;
 }
-/* line 571, ../scss/goodlinks.scss */
+/* line 602, ../scss/goodlinks.scss */
 .pricing-container .pricing-wrapper.is-switched .is-hidden {
   -webkit-transform: rotateY(0);
   -moz-transform: rotateY(0);
@@ -568,11 +595,11 @@ section.how-it-works .steps hr {
   animation: rotate-inverse 0.5s;
   opacity: 0;
 }
-/* line 583, ../scss/goodlinks.scss */
+/* line 614, ../scss/goodlinks.scss */
 .pricing-container .pricing-wrapper.is-switched .is-selected {
   opacity: 1;
 }
-/* line 587, ../scss/goodlinks.scss */
+/* line 618, ../scss/goodlinks.scss */
 .pricing-container .pricing-wrapper.is-switched.reverse-animation .is-visible {
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
@@ -583,7 +610,7 @@ section.how-it-works .steps hr {
   -moz-animation: rotate-back 0.5s;
   animation: rotate-back 0.5s;
 }
-/* line 598, ../scss/goodlinks.scss */
+/* line 629, ../scss/goodlinks.scss */
 .pricing-container .pricing-wrapper.is-switched.reverse-animation .is-hidden {
   -webkit-transform: rotateY(0);
   -moz-transform: rotateY(0);
@@ -595,11 +622,11 @@ section.how-it-works .steps hr {
   animation: rotate-inverse-back 0.5s;
   opacity: 0;
 }
-/* line 610, ../scss/goodlinks.scss */
+/* line 641, ../scss/goodlinks.scss */
 .pricing-container .pricing-wrapper.is-switched.reverse-animation .is-selected {
   opacity: 1;
 }
-/* line 614, ../scss/goodlinks.scss */
+/* line 645, ../scss/goodlinks.scss */
 .pricing-container .pricing-wrapper > li {
   background-color: #ffffff;
   -webkit-backface-visibility: hidden;
@@ -607,7 +634,7 @@ section.how-it-works .steps hr {
   border-radius: 6px;
   box-shadow: 0 2px 0 0 #e5e5e5;
 }
-/* line 623, ../scss/goodlinks.scss */
+/* line 654, ../scss/goodlinks.scss */
 .pricing-container .pricing-wrapper > li::after {
   content: '';
   position: absolute;
@@ -619,16 +646,16 @@ section.how-it-works .steps hr {
   background: -webkit-linear-gradient(right, white, rgba(255, 255, 255, 0));
   background: linear-gradient(to left, #ffffff, rgba(255, 255, 255, 0));
 }
-/* line 635, ../scss/goodlinks.scss */
+/* line 666, ../scss/goodlinks.scss */
 .pricing-container .pricing-wrapper > li.is-ended::after {
   display: none;
 }
-/* line 639, ../scss/goodlinks.scss */
+/* line 670, ../scss/goodlinks.scss */
 .pricing-container .pricing-wrapper .is-visible {
   position: relative;
   z-index: 5;
 }
-/* line 644, ../scss/goodlinks.scss */
+/* line 675, ../scss/goodlinks.scss */
 .pricing-container .pricing-wrapper .is-hidden {
   position: absolute;
   top: 0;
@@ -642,11 +669,11 @@ section.how-it-works .steps hr {
   -o-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
-/* line 658, ../scss/goodlinks.scss */
+/* line 689, ../scss/goodlinks.scss */
 .pricing-container .pricing-wrapper .is-selected {
   z-index: 3 !important;
 }
-/* line 662, ../scss/goodlinks.scss */
+/* line 693, ../scss/goodlinks.scss */
 .pricing-container .no-js .pricing-wrapper .is-hidden {
   position: relative;
   -webkit-transform: rotateY(0);
@@ -656,14 +683,14 @@ section.how-it-works .steps hr {
   transform: rotateY(0);
   margin-top: 1em;
 }
-/* line 672, ../scss/goodlinks.scss */
+/* line 703, ../scss/goodlinks.scss */
 .pricing-container .pricing-header h2 {
   padding: 0.5em 0.9em 0.6em;
   margin-bottom: 30px;
   margin-top: 0px;
   text-align: center;
 }
-/* line 679, ../scss/goodlinks.scss */
+/* line 710, ../scss/goodlinks.scss */
 .pricing-container .pricing-header {
   height: auto;
   padding: .9em 0 1.6em;
@@ -672,73 +699,73 @@ section.how-it-works .steps hr {
   color: #173d50;
   background-color: transparent;
 }
-/* line 688, ../scss/goodlinks.scss */
+/* line 719, ../scss/goodlinks.scss */
 .pricing-container .exclusive .pricing-header h2 {
   color: #0B8E45;
 }
-/* line 692, ../scss/goodlinks.scss */
+/* line 723, ../scss/goodlinks.scss */
 .pricing-container .pricing-header h2 {
   font-size: 2.8rem;
   letter-spacing: 2px;
 }
-/* line 698, ../scss/goodlinks.scss */
+/* line 729, ../scss/goodlinks.scss */
 .pricing-container .currency,
 .pricing-container .value {
   font-size: 60px;
   font-weight: 300;
 }
-/* line 703, ../scss/goodlinks.scss */
+/* line 734, ../scss/goodlinks.scss */
 .pricing-container .duration {
   font-weight: 700;
   font-size: 1.3rem;
   color: #8dc8e4;
   text-transform: uppercase;
 }
-/* line 710, ../scss/goodlinks.scss */
+/* line 741, ../scss/goodlinks.scss */
 .pricing-container .duration::before {
   content: '/';
   margin-right: 2px;
 }
-/* line 716, ../scss/goodlinks.scss */
+/* line 747, ../scss/goodlinks.scss */
 .pricing-container .currency,
 .pricing-container .duration {
   color: #0B8E45;
 }
-/* line 720, ../scss/goodlinks.scss */
+/* line 751, ../scss/goodlinks.scss */
 .pricing-container .currency {
   display: inline-block;
   vertical-align: top;
   font-size: 2rem;
   font-weight: 700;
 }
-/* line 727, ../scss/goodlinks.scss */
+/* line 758, ../scss/goodlinks.scss */
 .pricing-container .duration {
   font-size: 1.4rem;
 }
-/* line 731, ../scss/goodlinks.scss */
+/* line 762, ../scss/goodlinks.scss */
 .pricing-container .pricing-body {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
-/* line 736, ../scss/goodlinks.scss */
+/* line 767, ../scss/goodlinks.scss */
 .pricing-container .is-switched .pricing-body {
   overflow: hidden;
 }
-/* line 740, ../scss/goodlinks.scss */
+/* line 771, ../scss/goodlinks.scss */
 .pricing-container .pricing-body {
   overflow-x: visible;
 }
-/* line 744, ../scss/goodlinks.scss */
+/* line 775, ../scss/goodlinks.scss */
 .pricing-container .pricing-features {
   width: 600px;
 }
-/* line 748, ../scss/goodlinks.scss */
+/* line 779, ../scss/goodlinks.scss */
 .pricing-container .pricing-features:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 754, ../scss/goodlinks.scss */
+/* line 785, ../scss/goodlinks.scss */
 .pricing-container .pricing-features li {
   width: 100px;
   float: left;
@@ -750,40 +777,40 @@ section.how-it-works .steps hr {
   font-size: 18px;
   line-height: 1em;
 }
-/* line 765, ../scss/goodlinks.scss */
+/* line 796, ../scss/goodlinks.scss */
 .pricing-container .pricing-features li.best-value {
   color: #0B8E45;
   font-weight: bold;
 }
-/* line 771, ../scss/goodlinks.scss */
+/* line 802, ../scss/goodlinks.scss */
 .pricing-container .pricing-features em {
   display: block;
   margin-bottom: 5px;
   font-weight: 600;
 }
-/* line 777, ../scss/goodlinks.scss */
+/* line 808, ../scss/goodlinks.scss */
 .pricing-container .pricing-features {
   width: auto;
 }
-/* line 781, ../scss/goodlinks.scss */
+/* line 812, ../scss/goodlinks.scss */
 .pricing-container .pricing-features li {
   float: none;
   width: auto;
 }
-/* line 786, ../scss/goodlinks.scss */
+/* line 817, ../scss/goodlinks.scss */
 .pricing-container .exclusive .pricing-features li {
   margin: 0 3px;
 }
-/* line 790, ../scss/goodlinks.scss */
+/* line 821, ../scss/goodlinks.scss */
 .pricing-container .pricing-features em {
   display: inline-block;
   margin-bottom: 0;
 }
-/* line 795, ../scss/goodlinks.scss */
+/* line 826, ../scss/goodlinks.scss */
 .pricing-container .has-margins .exclusive .pricing-features li {
   margin: 0;
 }
-/* line 799, ../scss/goodlinks.scss */
+/* line 830, ../scss/goodlinks.scss */
 .pricing-container .pricing-footer {
   position: absolute;
   z-index: 1;
@@ -792,51 +819,51 @@ section.how-it-works .steps hr {
   height: 80px;
   width: 100%;
 }
-/* line 808, ../scss/goodlinks.scss */
+/* line 839, ../scss/goodlinks.scss */
 .pricing-container .pricing-footer {
   position: relative;
   height: auto;
   padding: 1.8em 0;
   text-align: center;
 }
-/* line 815, ../scss/goodlinks.scss */
+/* line 846, ../scss/goodlinks.scss */
 .pricing-container .pricing-footer::after {
   display: none;
 }
 
 @media only screen and (min-width: 1014px) {
-  /* line 822, ../scss/goodlinks.scss */
+  /* line 853, ../scss/goodlinks.scss */
   .pricing-list {
     margin: 3em 0 0;
   }
 
-  /* line 825, ../scss/goodlinks.scss */
+  /* line 856, ../scss/goodlinks.scss */
   .pricing-list:after {
     content: "";
     display: table;
     clear: both;
   }
 
-  /* line 830, ../scss/goodlinks.scss */
+  /* line 861, ../scss/goodlinks.scss */
   .pricing-list > li {
     width: 25%;
     float: left;
   }
 
-  /* line 834, ../scss/goodlinks.scss */
+  /* line 865, ../scss/goodlinks.scss */
   .has-margins .pricing-list > li {
     width: 32.3333333333%;
     float: left;
     margin-right: 1.5%;
   }
 
-  /* line 839, ../scss/goodlinks.scss */
+  /* line 870, ../scss/goodlinks.scss */
   .has-margins .pricing-list > li:last-of-type {
     margin-right: 0;
   }
 }
 @media only screen and (min-width: 1014px) {
-  /* line 845, ../scss/goodlinks.scss */
+  /* line 876, ../scss/goodlinks.scss */
   .pricing-wrapper > li::before {
     content: '';
     position: absolute;
@@ -853,64 +880,64 @@ section.how-it-works .steps hr {
     width: 1px;
   }
 
-  /* line 860, ../scss/goodlinks.scss */
+  /* line 891, ../scss/goodlinks.scss */
   .pricing-wrapper > li::after {
     display: none;
   }
 
-  /* line 863, ../scss/goodlinks.scss */
+  /* line 894, ../scss/goodlinks.scss */
   .exclusive .pricing-wrapper > li {
     border: solid 4px #e2e2e2;
     padding: 26px 0px;
     margin-top: -48px;
   }
 
-  /* line 871, ../scss/goodlinks.scss */
+  /* line 902, ../scss/goodlinks.scss */
   :nth-of-type(1) > .pricing-wrapper > li::before {
     display: none;
   }
 
-  /* line 874, ../scss/goodlinks.scss */
+  /* line 905, ../scss/goodlinks.scss */
   .has-margins .pricing-wrapper > li {
     border-radius: 4px 4px 6px 6px;
   }
 
-  /* line 877, ../scss/goodlinks.scss */
+  /* line 908, ../scss/goodlinks.scss */
   .has-margins .pricing-wrapper > li::before {
     display: none;
   }
 }
 @media only screen and (min-width: 1500px) {
-  /* line 883, ../scss/goodlinks.scss */
+  /* line 914, ../scss/goodlinks.scss */
   .full-width .pricing-wrapper > li {
     padding: 2.5em 0;
   }
 }
 @media only screen and (min-width: 768px) {
-  /* line 889, ../scss/goodlinks.scss */
+  /* line 920, ../scss/goodlinks.scss */
   .exclusive .pricing-wrapper > li::before {
     display: none;
   }
 
-  /* line 892, ../scss/goodlinks.scss */
+  /* line 923, ../scss/goodlinks.scss */
   .exclusive + li .pricing-wrapper > li::before {
     display: none;
   }
 }
 @media screen and (max-width: 1014px) {
-  /* line 898, ../scss/goodlinks.scss */
+  /* line 929, ../scss/goodlinks.scss */
   .pricing-container {
     margin: 1em;
     overflow-x: hidden;
   }
-  /* line 902, ../scss/goodlinks.scss */
+  /* line 933, ../scss/goodlinks.scss */
   .pricing-container .pricing-list > li {
     padding-left: 0;
     padding-right: 0;
   }
 }
 @media screen and (max-width: 840px) {
-  /* line 910, ../scss/goodlinks.scss */
+  /* line 941, ../scss/goodlinks.scss */
   #navButton .toggle:before {
     background: rgba(134, 134, 134, 0.5);
   }

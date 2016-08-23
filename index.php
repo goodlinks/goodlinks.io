@@ -180,6 +180,73 @@
 					</span>
 				</section>
 
+				<section class="box special social-proof">
+					<header class="major">
+						<!-- todo: this shouldn't be inside <header> -->
+						<div class="steps">
+							<div class="step">
+								<div class="step-description">
+									<p>
+										<strong>84%</strong> of marketing and communications professionals
+										worldwide expected to launch at least one campaign <strong>involving an
+										influencer</strong> in the next 12 months
+									</p>
+								</div>
+								<div class="step-image">
+									<img src="/image/emarketer-logo.jpg">
+								</div>
+							</div>
+							<hr/>
+							<div class="step right">
+								<div class="step-image">
+									<img src="/image/kissmetrics-logo.png">
+								</div>
+								<div class="step-description">
+									<p>
+										Up to <strong>75% of marketers</strong> are now investing in influencer marketing and <strong>60% of brands will increase the amount</strong> they spend on it in 2016.
+									</p>
+								</div>
+							</div>
+							<hr/>
+							<div class="step">
+								<div class="step-image">
+									<img src="/image/forbes-logo.png">
+								</div>
+								<div class="step-description">
+									<p>
+										<strong>Influencer content cannot be blocked</strong>, external influencers are being created every day,
+										and the <strong>best way to gain customer trust</strong> is by aligning with somebody they already trust.
+									</p>
+								</div>
+							</div>
+							<hr/>
+							<div class="step right">
+								<div class="step-image">
+									<img src="/image/huffington-post-logo.png">
+								</div>
+								<div class="step-description">
+									<p>
+										Influencer marketing instills consumer action and <strong>motivates buying intention</strong>, especially for collectives
+										such as millennials who are hard to reach by other means. <strong>In short, it works</strong>.
+									</p>
+								</div>
+							</div>
+							<hr/>
+							<div class="step">
+								<div class="step-image">
+									<img src="/image/social-media-examiner-logo.png">
+								</div>
+								<div class="step-description">
+									<p>
+										Marketers rated influencer marketing as the <strong>fastest-growing online customer acquisition tactic</strong>, beating organic search, paid search and email marketing.
+									</p>
+								</div>
+							</div>
+
+						</div>
+					</header>
+				</section>
+
 				<section class="box special features">
 					<div class="features-row">
 						<section>

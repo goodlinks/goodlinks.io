@@ -394,7 +394,7 @@ section.what-people-are-saying {
     }
 }
 
-section.how-it-works {
+section.how-it-works, section.social-proof {
     .steps {
         margin-top: 2em;
 
@@ -447,6 +447,37 @@ section.how-it-works {
                 top: 50%;
                 transform: translateY(-50%);
                 left: 50%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 640px) {
+    section.social-proof {
+        .steps {
+            .step {
+                position: relative;
+                .step-image {
+                    width: 30%;
+                    float: left;
+                }
+
+                .step-description {
+                    width: 70%;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    left: 30%;
+                }
+            }
+
+            .step.right {
+                .step-image {
+                    float: right;
+                }
+                .step-description {
+                    left: 0%;
+                }
             }
         }
     }
