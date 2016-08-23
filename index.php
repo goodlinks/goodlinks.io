@@ -102,7 +102,7 @@
 						</g>
 					</svg>
 					<h1 class="headline">
-						Looking To Connect With Influencers?
+						Want To Get Introduced To Influencers?
 						<br/><span style="font-weight: bold;">We Send Them <u>Straight To Your Inbox.</u></span>
 					</h1>
 				</div>
@@ -529,11 +529,9 @@
 									Does Goodlinks produce content for us?
 								</p>
 								<p class="answer">
-									No, we don't get involved in the content creation process.
-									We recommend <a href="https://bunnyinc.com/article" target="_blank">Article Bunny</a>
-									and <a href="http://audienceops.com/" target="_blank">Audience Ops</a> for content
-									- by specializing deeply in personalized outreach we're able to better serve
-									you be getting the highest quality influencer introductions straight to your inbox.
+									No, we don't - we're laser-focused on our specialty of personalized outreach. This allows us to better serve you by getting the highest quality influencer introductions, straight to your inbox.
+									We do recommend <a href="https://bunnyinc.com/article" target="_blank">Article Bunny</a>
+									and <a href="http://audienceops.com/" target="_blank">Audience Ops</a> for content creation.
 								</p>
 							</li>
 							<li>
@@ -553,7 +551,7 @@
 								</p>
 								<p class="answer">
 									You should begin to get email replies from influencers sent to you within a week or two of the outreach
-									starting.  It may take you anywhere between a week or several weeks to get
+									starting.  It may take you anywhere from a week to several weeks to get
 									placements up with them.
 								</p>
 							</li>
@@ -611,8 +609,8 @@
 							<li>
 								<img src="/image/matthew-wilson-goodlinks.jpeg">
 								<p>
-									<b>Matthew Wilson</b> Communication Coordinator at Goodlinks. Fan of music, graphic design, cooking, and kissing my baby daughter :)
-									<br/><a href="https://twitter.com/katie_goodlinks" target="_blank"><i class="fa fa-twitter"></i></a>
+									<b>Matthew Wilson</b> is a communications coordinator and also a fan of music, graphic design, and cooking.
+									<br/><a href="https://twitter.com/MattGoodlinks" target="_blank"><i class="fa fa-twitter"></i></a>
 								</p>
 							</li>
 							<li>
@@ -751,6 +749,26 @@
 					suggestions.
 				</p>
 
+				<div id="wufoo-z1enib7m19zf4ri">
+					Fill out my <a href="https://goodlinks.wufoo.com/forms/z1enib7m19zf4ri">online form</a>.
+				</div>
+				<script type="text/javascript">var z1enib7m19zf4ri;(function(d, t) {
+						var s = d.createElement(t), options = {
+							'userName':'goodlinks',
+							'formHash':'z1enib7m19zf4ri',
+							'autoResize':true,
+							'height':'320',
+							'async':true,
+							'host':'wufoo.com',
+							'header':'show',
+							'ssl':true};
+						s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+						s.onload = s.onreadystatechange = function() {
+							var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+							try { z1enib7m19zf4ri = new WufooForm();z1enib7m19zf4ri.initialize(options);z1enib7m19zf4ri.display(); } catch (e) {}};
+						var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+					})(document, 'script');</script>
+
 				<!--
 				<p style="font-weight: bold;">
 					We're currently at capacity!
@@ -820,7 +838,7 @@
 					// Open Checkout with further options
 					handler.open({
 						name: 'Goodlinks',
-						description: '300 Communications / Month for $1250',
+						description: '',
 						amount: 0,
 						panelLabel: 'Subscribe'
 					});
@@ -831,7 +849,7 @@
 					// Open Checkout with further options
 					handler.open({
 						name: 'Goodlinks',
-						description: '100 Communications / Month',
+						description: 'Do-It-Yourself Custom Report',
 						amount: 0,
 						panelLabel: 'Subscribe'
 					});
