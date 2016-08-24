@@ -742,7 +742,7 @@
 			<section id="cta">
 
 				<a name="signup"></a>
-				<h2>Want To Sell Your Info Online?</h2>
+				<h2>Get Your Free Custom Influencer Outreach Strategy</h2>
 				<p>
 					Enter your info and we'll get to work on a game plan made just for your business:
 				</p>
