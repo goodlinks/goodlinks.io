@@ -185,15 +185,15 @@
 						<!-- todo: this shouldn't be inside <header> -->
 						<div class="steps">
 							<div class="step">
+								<div class="step-image">
+									<img src="/image/emarketer-logo.jpg">
+								</div>
 								<div class="step-description">
 									<p>
 										<strong>84%</strong> of marketing and communications professionals
 										worldwide expected to launch at least one campaign <strong>involving an
 										influencer</strong> in the next 12 months
 									</p>
-								</div>
-								<div class="step-image">
-									<img src="/image/emarketer-logo.jpg">
 								</div>
 							</div>
 							<hr/>
@@ -742,46 +742,25 @@
 			<section id="cta">
 
 				<a name="signup"></a>
-				<h2>Let's do this!</h2>
+				<h2>Want To Sell Your Info Online?</h2>
 				<p>
-					Put a credit card on file in order to get started!  Once you do so,
-					you'll receive an email within 1 to 2 business days with outreach strategy
-					suggestions.
+					Enter your info and we'll get to work on a game plan made just for your business:
 				</p>
 
-				<div id="wufoo-z1enib7m19zf4ri">
-					Fill out my <a href="https://goodlinks.wufoo.com/forms/z1enib7m19zf4ri">online form</a>.
-				</div>
-				<script type="text/javascript">var z1enib7m19zf4ri;(function(d, t) {
-						var s = d.createElement(t), options = {
-							'userName':'goodlinks',
-							'formHash':'z1enib7m19zf4ri',
-							'autoResize':true,
-							'height':'320',
-							'async':true,
-							'host':'wufoo.com',
-							'header':'show',
-							'ssl':true};
-						s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-						s.onload = s.onreadystatechange = function() {
-							var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-							try { z1enib7m19zf4ri = new WufooForm();z1enib7m19zf4ri.initialize(options);z1enib7m19zf4ri.display(); } catch (e) {}};
-						var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-					})(document, 'script');</script>
-
-				<!--
-				<p style="font-weight: bold;">
-					We're currently at capacity!
-					Next availability is June 11.
-					Put a credit card on file to be next in line!
-				</p>
-				-->
-
-				<center>
-					<script src="https://checkout.stripe.com/checkout.js"></script>
-
-					<a href="javascript://" id="customButton" class="button special"><?php echo (isset($_GET['customer_id']) ? "Update Your Card" : "Get Started"); ?></a>
-				</center>
+				<form>
+					<div class="input-wrapper">
+						<input name="name" type="text" placeholder="First Name">
+					</div>
+					<div class="input-wrapper">
+						<input name="email" type="email" placeholder="Email">
+					</div>
+					<div class="input-wrapper">
+						<input name="url" type="email" placeholder="URL">
+					</div>
+					<div class="button-wrapper">
+						<a href="javascript://" id="customButton" class="button special"><?php echo (isset($_GET['customer_id']) ? "Update Your Card" : "Show Me How To Reach Influencers"); ?></a>
+					</div>
+				</form>
 
 			</section>
 
@@ -832,17 +811,6 @@
 
 						window.location=url;
 					}
-				});
-
-				jQuery('#customButton').on('click', function(e) {
-					// Open Checkout with further options
-					handler.open({
-						name: 'Goodlinks',
-						description: '',
-						amount: 0,
-						panelLabel: 'Subscribe'
-					});
-					e.preventDefault();
 				});
 
 				jQuery('.sign-up.plan-500').on('click', function(e) {
@@ -898,6 +866,31 @@
 				window.onresize = function() {
 					resizeVideoOverlay();
 				}
+			});
+
+			jQuery('#customButton').on('click', function(e) {
+				var $form = jQuery('#cta form');
+				var name = $form.find('input[name=name]').val();
+				var email = $form.find('input[name=email]').val();
+				var url = $form.find('input[name=url]').val();
+
+				$.ajax({
+					url: '/form.php',
+					method: "POST",
+					data: {
+						name: name,
+						email: email,
+						url: url
+					},
+					success: function(data) {
+						jQuery('#cta p').fadeOut();
+						jQuery('#cta form').fadeOut(function() {
+							jQuery('#cta h2').text("Thanks!  We're on it and will be in touch!")
+						});
+					}
+				});
+
+			console.log(name);
 			});
 
 			// Hack - what we should do is detect when the video finishes loading

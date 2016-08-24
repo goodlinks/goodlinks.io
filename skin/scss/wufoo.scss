@@ -1,3 +1,23 @@
-h1#logo {
-    display: none;
+.embed {
+    h1#logo {
+        display: none;
+    }
+
+    #container {
+        border: none;
+        box-shadow: none;
+        background-color: #2ECC71;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    .wufoo .info div {
+        color: white;
+    }
+
+    .wufoo label.desc, .wufoo legend.desc {
+        color: white;
+    }
 }

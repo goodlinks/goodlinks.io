@@ -1,4 +1,22 @@
-/* line 1, ../scss/wufoo.scss */
-h1#logo {
+/* line 2, ../scss/wufoo.scss */
+.embed h1#logo {
   display: none;
+}
+/* line 6, ../scss/wufoo.scss */
+.embed #container {
+  border: none;
+  box-shadow: none;
+  background-color: #2ECC71;
+}
+/* line 12, ../scss/wufoo.scss */
+.embed h2 {
+  color: white;
+}
+/* line 16, ../scss/wufoo.scss */
+.embed .wufoo .info div {
+  color: white;
+}
+/* line 20, ../scss/wufoo.scss */
+.embed .wufoo label.desc, .embed .wufoo legend.desc {
+  color: white;
 }

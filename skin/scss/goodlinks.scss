@@ -184,6 +184,15 @@ a {
             color: inherit;
         }
     }
+
+    form {
+        .input-wrapper {
+            margin: 1em;
+        }
+        .button-wrapper {
+            margin-top: 3em;
+        }
+    }
 }
 
 .button, .button.special {
