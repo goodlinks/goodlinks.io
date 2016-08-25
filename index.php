@@ -715,6 +715,17 @@
 						<a name="saying"></a>
 						<h2>What People Are Saying</h2>
 					</header>
+					<div class="testimonial">
+						<div class="testimonial-content">
+							&ldquo;Your outreach style is <b>exactly what I've been looking for</b>.
+							The <b><i>hyper personal</i></b> and unique
+							emails (on top of your template which has the pitch), is great and <b>actually <i>human</i></b>,
+							which is something I've always done with my own outreach&rdquo;
+						</div>
+						<div class="testimonial-name">
+							-- <b>Duane</b>, Marketing Manager with a <strong>leading SaaS in the Alexa Top 500</strong>
+						</div>
+					</div>
 					<div class="box-inner">
 						<div class="tweet">
 							<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Had a lengthy conversation today with <a href="https://twitter.com/kalenjordan">@kalenjordan</a> <a href="https://twitter.com/goodlinksio">@goodlinksio</a> Unreal how much detail they take the time to learn when onboarding.</p>&mdash; Imagination Media (@imgmage) <a href="https://twitter.com/imgmage/status/703370570428227584">February 27, 2016</a></blockquote>

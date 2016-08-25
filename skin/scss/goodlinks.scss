@@ -401,6 +401,19 @@ section.what-people-are-saying {
         float: left;
         margin: 1.5em;
     }
+
+    .testimonial {
+        margin: 2em;
+        .testimonial-content {
+            font-size: 25px;
+            line-height: 33px;
+        }
+        .testimonial-name {
+            margin-top: 1em;
+            font-size: 22px;
+        }
+    }
+
 }
 
 section.how-it-works, section.social-proof {
