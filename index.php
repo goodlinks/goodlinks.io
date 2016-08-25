@@ -24,6 +24,7 @@
 		ga('send', 'pageview');
 
 	</script>
+	<script src="https://checkout.stripe.com/checkout.js"></script>
 	<script src="//load.sumome.com/" data-sumo-site-id="b5f0ad12b4a3efb7718547cacd17b4f91d2656baf8749860f77c9466c74877e5" async="async"></script>
 		<div id="page-wrapper">
 			<!-- Header -->
@@ -62,7 +63,7 @@
 						<li><a href="#mission">The Mission</a></li>
 						<li><a href="#pricing">Pricing</a></li>
 						<li><a href="tel:(866) 551 - 2370">(866) 551 - 2370</a></li>
-						<li><a href="#signup">Sign Up</a></li>
+						<li><a href="#signup">Free Outreach Plan</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -429,7 +430,7 @@
 										<h2>Good</h2>
 										<div class="price">
 											<span class="currency">$</span>
-											<span class="value">1250</span>
+											<span class="value">699</span>
 											<span class="duration">mo</span>
 										</div>
 									</header>
@@ -458,7 +459,7 @@
 										<h2>Better</h2>
 										<div class="price">
 											<span class="currency">$</span>
-											<span class="value">2400</span>
+											<span class="value">1399</span>
 											<span class="duration">mo</span>
 										</div>
 									</header>
@@ -486,7 +487,7 @@
 										<h2>Amazing</h2>
 										<div class="price">
 											<span class="currency">$</span>
-											<span class="value">3500</span>
+											<span class="value">2099</span>
 											<span class="duration">mo</span>
 										</div>
 									</header>
@@ -758,7 +759,7 @@
 						<input name="url" type="email" placeholder="URL">
 					</div>
 					<div class="button-wrapper">
-						<a href="javascript://" id="customButton" class="button special"><?php echo (isset($_GET['customer_id']) ? "Update Your Card" : "Show Me How To Reach Influencers"); ?></a>
+						<a href="javascript://" id="customButton" class="button special"><?php echo (isset($_GET['customer_id']) ? "Update Your Card" : "Get My Outreach Plan"); ?></a>
 					</div>
 				</form>
 
