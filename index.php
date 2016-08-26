@@ -895,10 +895,7 @@
 						url: url
 					},
 					success: function(data) {
-						jQuery('#cta p').fadeOut();
-						jQuery('#cta form').fadeOut(function() {
-							jQuery('#cta h2').text("Thanks!  We're on it and will be in touch!")
-						});
+						window.location = 'https://goodlinks.leadpages.co/thanks/';
 					}
 				});
 
