@@ -717,7 +717,7 @@
 					</header>
 					<div class="testimonial">
 						<div class="testimonial-content">
-							&ldquo;Your outreach style is <b>exactly what I've been looking for</b>.
+							<span style="font-size: 50px;">&ldquo;</span>Your outreach style is <b>exactly what I've been looking for</b>.
 							The <b><i>hyper personal</i></b> and unique
 							emails (on top of your template which has the pitch), is great and <b>actually <i>human</i></b>,
 							which is something I've always done with my own outreach&rdquo;

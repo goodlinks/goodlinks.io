@@ -407,6 +407,9 @@ section.what-people-are-saying {
         .testimonial-content {
             font-size: 25px;
             line-height: 33px;
+            b {
+                border-bottom: solid 3px #2ECC71;
+            }
         }
         .testimonial-name {
             margin-top: 1em;
