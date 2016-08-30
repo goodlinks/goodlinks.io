@@ -103,8 +103,7 @@
 						</g>
 					</svg>
 					<h1 class="headline">
-						Want To Get Introduced To Influencers?
-						<br/><span style="font-weight: bold;">We Send Them <u>Straight To Your Inbox.</u></span>
+						Content Outreach You'll Be <u><span style="font-weight: bold;">Proud Of</span></u>
 					</h1>
 				</div>
 			</section>
@@ -430,14 +429,14 @@
 										<h2>Good</h2>
 										<div class="price">
 											<span class="currency">$</span>
-											<span class="value">699</span>
+											<span class="value">1k</span>
 											<span class="duration">mo</span>
 										</div>
 									</header>
 									<div class="pricing-body">
 										<ul class="pricing-features">
 											<li class="best-value">Most Popular!</li>
-											<li><em>70</em> Targeted Prospects</li>
+											<li><em>50</em> Targeted Prospects</li>
 											<li><em>300</em> Outreach Communications</li>
 											<li><em>1</em> Custom Content Strategy</li>
 											<li>Personalized Pitch Formation</li>
@@ -459,13 +458,13 @@
 										<h2>Better</h2>
 										<div class="price">
 											<span class="currency">$</span>
-											<span class="value">1399</span>
+											<span class="value">2k</span>
 											<span class="duration">mo</span>
 										</div>
 									</header>
 									<div class="pricing-body">
 										<ul class="pricing-features">
-											<li><em>140</em> Targeted Prospects</li>
+											<li><em>80</em> Targeted Prospects</li>
 											<li><em>600</em> Outreach Communications</li>
 											<li><em>2</em> Custom Content Strategies</li>
 											<li>Personalized Pitch Formation</li>
@@ -487,15 +486,15 @@
 										<h2>Amazing</h2>
 										<div class="price">
 											<span class="currency">$</span>
-											<span class="value">2099</span>
+											<span class="value">3k</span>
 											<span class="duration">mo</span>
 										</div>
 									</header>
 									<div class="pricing-body">
 										<ul class="pricing-features">
-											<li><em>210</em> Targeted Prospects</li>
+											<li><em>110</em> Targeted Prospects</li>
 											<li><em>900</em> Outreach Communications</li>
-											<li><em>3</em> Custom Content Strategies</li>
+											<li><em>2</em> Custom Content Strategies</li>
 											<li>Personalized Pitch Formation</li>
 											<li>Audience Research & Analysis</li>
 											<li>Live Activity Monitoring</li>
@@ -522,7 +521,9 @@
 									What can Goodlinks help me acccomplish?
 								</p>
 								<p class="answer">
-									What we do is influencer outreach - that means we help you reach out to influential people in your niche so that you can get in front of their audience. The result is that they link to you from their website and/or share you with their audience.
+									What we do is influencer outreach - that means we help you reach out to influential
+									people in your niche so that you can get in front of their audience.
+									The result is that they link to you from their website or share you with their audience.
 								</p>
 							</li>
 							<li>
@@ -530,9 +531,10 @@
 									Does Goodlinks produce content for us?
 								</p>
 								<p class="answer">
-									No, we don't - we're laser-focused on our specialty of personalized outreach. This allows us to better serve you by getting the highest quality influencer introductions, straight to your inbox.
-									We do recommend <a href="https://bunnyinc.com/article" target="_blank">Article Bunny</a>
-									and <a href="http://audienceops.com/" target="_blank">Audience Ops</a> for content creation.
+									We have some partners that we work with to get content produced for customers that
+									don't do their own content: <a href="https://bunnyinc.com/article" target="_blank">Article Bunny</a>
+									and <a href="http://audienceops.com/" target="_blank">Audience Ops</a>.  We can manage
+									the content creation process for you to save you the trouble.
 								</p>
 							</li>
 							<li>
