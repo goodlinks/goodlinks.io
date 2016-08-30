@@ -327,40 +327,28 @@
 						<div class="steps">
 							<div class="step">
 								<div class="step-image">
-									<img src="/image/step-signup.png">
-								</div>
-								<div class="step-description">
-									<h3>1. Sign Up</h3>
-									<p>
-										Put your credit card on file in order to get things
-										started.
-									</p>
-								</div>
-							</div>
-							<hr/>
-							<div class="step">
-								<div class="step-image">
 									<img src="/image/step-outreach-angles.png" alt="email with outreach plan">
 								</div>
 								<div class="step-description">
-									<h3>2. Receive Outreach Strategy</h3>
+									<h3>1. Get Your Custom Outreach Plan</h3>
 									<p>
-										Within 1 to 2 business days, you'll receive an email with
-										some suggested outreach strategies, along with a link to book
-										a call with us.
+										<strong>This is 100% free</strong> - within 1 to 2 business days, we'll review your business and send you a custom influencer outreach plan, made just for you.
 									</p>
 								</div>
 							</div>
 							<hr/>
 							<div class="step">
 								<div class="step-image">
-									<img src="/image/step-book-call.png" alt="calendly screenshot">
+									<img src="/image/step-signup.png">
 								</div>
 								<div class="step-description">
-									<h3>3. Book a Call</h3>
+									<h3>2. Sign Up</h3>
 									<p>
-										On the call, we'll go over the suggested outreach strategies
-										and land on a direction for the first month of outreach and content
+										After reviewing your custom outreach plan, if everything looks good to you,
+										put
+										your credit card on file in order to get things started.
+										Remember that you
+										can always get a <strong>refund if you're not satisifed</strong>.
 									</p>
 								</div>
 							</div>
@@ -370,11 +358,12 @@
 									<img src="/image/step-watch-outreach.png" alt="Buzzstream feed screenshot">
 								</div>
 								<div class="step-description">
-									<h3>4. Watch the Outreach</h3>
+									<h3>3. Watch the Outreach</h3>
 									<p>
 										You'll be able to keep a pulse on all the outreach that's happening
-										through the BuzzStream feed integration with our CRM.  When we get a warm
-										lead from an influencer, we'll send them right to your inbox.
+										through the BuzzStream feed integration with our CRM.
+										<strong>See
+										every single communication</strong> going out and coming in, whenever you like.
 									</p>
 								</div>
 							</div>
@@ -384,11 +373,11 @@
 									<img src="/image/step-see-results.png" alt="google analytics screenshot">
 								</div>
 								<div class="step-description">
-									<h3>5. See Results</h3>
+									<h3>4. See Results</h3>
 									<p>
-										See results in terms of valuable relationships developed with influencers within
-										weeks, and increased referral sales and improved search engine
-										rankings within months.
+										See results in terms of <strong>links and valuable relationships developed
+										with influencers</strong> within weeks, and improved search engine rankings
+										and increased referral sales within months.
 									</p>
 								</div>
 							</div>
@@ -759,9 +748,9 @@
 			<section id="cta">
 
 				<a name="signup"></a>
-				<h2>Get Your Free Custom Influencer Outreach Strategy</h2>
+				<h2>Get Your Free Custom Influencer Outreach Plan</h2>
 				<p>
-					Enter your info and we'll get to work on a game plan made just for your business:
+					We'll work on a game plan made just for your business:
 				</p>
 
 				<form>
@@ -775,7 +764,7 @@
 						<input name="url" type="email" placeholder="URL">
 					</div>
 					<div class="button-wrapper">
-						<a href="javascript://" id="customButton" class="button special"><?php echo (isset($_GET['customer_id']) ? "Update Your Card" : "Get My Outreach Plan"); ?></a>
+						<a href="javascript://" id="customButton" class="button special"><?php echo (isset($_GET['customer_id']) ? "Update Your Card" : "Send My Outreach Plan"); ?></a>
 					</div>
 				</form>
 
