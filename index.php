@@ -528,13 +528,13 @@
 							</li>
 							<li>
 								<p class="question">
-									Does Goodlinks produce content for us?
+									Is the content creation included in this pricing?
 								</p>
 								<p class="answer">
-									We have some partners that we work with to get content produced for customers that
-									don't do their own content: <a href="https://bunnyinc.com/article" target="_blank">Article Bunny</a>
-									and <a href="http://audienceops.com/" target="_blank">Audience Ops</a>.  We can manage
-									the content creation process for you to save you the trouble.
+									No - you'll want to budget roughly <b><u>$200 per article</u></b> if you need to have content
+									produced externally.  We use <a href="https://bunnyinc.com/article" target="_blank">Article Bunny</a>
+									for that generally.  Another option is <a href="http://audienceops.com/" target="_blank">Audience Ops</a> -
+									they charge a bit more.
 								</p>
 							</li>
 							<li>
