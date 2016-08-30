@@ -63,7 +63,7 @@
 						<li><a href="#mission">The Mission</a></li>
 						<li><a href="#pricing">Pricing</a></li>
 						<li><a href="tel:(866) 551 - 2370">(866) 551 - 2370</a></li>
-						<li><a href="#signup">Free Outreach Plan</a></li>
+						<li><a href="#signup" style="background-color: #2ecc71; color: white;">Free Outreach Plan</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -103,7 +103,10 @@
 						</g>
 					</svg>
 					<h1 class="headline">
-						Content Outreach You'll Be <u><span style="font-weight: bold;">Proud Of</span></u>
+						Get links from influencers.
+						<br/>Increase your search rankings.
+						<br/>Reach the right audience.
+						<br/><u><span style="font-weight: bold;">We do it all for you</span></u>.
 					</h1>
 				</div>
 			</section>
