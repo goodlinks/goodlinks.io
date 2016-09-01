@@ -421,7 +421,7 @@
 										<h2>Good</h2>
 										<div class="price">
 											<span class="currency">$</span>
-											<span class="value">1k</span>
+											<span class="value">1100</span>
 											<span class="duration">mo</span>
 										</div>
 									</header>
@@ -450,7 +450,7 @@
 										<h2>Better</h2>
 										<div class="price">
 											<span class="currency">$</span>
-											<span class="value">2k</span>
+											<span class="value">2200</span>
 											<span class="duration">mo</span>
 										</div>
 									</header>
@@ -478,7 +478,7 @@
 										<h2>Amazing</h2>
 										<div class="price">
 											<span class="currency">$</span>
-											<span class="value">3k</span>
+											<span class="value">3300</span>
 											<span class="duration">mo</span>
 										</div>
 									</header>
