@@ -16,11 +16,11 @@
 	<body class="landing">
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-		ga('create', 'UA-42510916-4', 'auto');
+		ga('create', 'UA-83870607-1', 'auto');
 		ga('send', 'pageview');
 
 	</script>
@@ -542,12 +542,12 @@
 							</li>
 							<li>
 								<p class="question">
-									How long will it take to see results?
+									How many links will I get?
 								</p>
 								<p class="answer">
-									You should begin to get email replies from influencers sent to you within a week or two of the outreach
-									starting.  It may take you anywhere from a week to several weeks to get
-									placements up with them.
+									While we don't provide any hard guarantees for links, we like to shoot for
+									4-5 links with the Good plan.  The results that we get will vary depending
+									on the quality of your website as well as the content produced.
 								</p>
 							</li>
 							<li>
@@ -606,13 +606,6 @@
 								<p>
 									<b>Matthew Wilson</b> is a communications coordinator and also a fan of music, graphic design, and cooking.
 									<br/><a href="https://twitter.com/MattGoodlinks" target="_blank"><i class="fa fa-twitter"></i></a>
-								</p>
-							</li>
-							<li>
-								<img src="/image/steve-nam-goodlinks.jpg">
-								<p>
-									<b>Steve Nam</b> is the co-founder and marketing director for Goodlinks, and a dude who loves family.
-									<br/><a href="https://twitter.com/SteveGoodlinks" target="_blank"><i class="fa fa-twitter"></i></a>
 								</p>
 							</li>
 						</ul>
